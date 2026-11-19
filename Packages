@@ -1,3 +1,17 @@
+Package: command-not-found
+Architecture: aarch64
+Installed-Size: 728
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.5.0-21
+Homepage: https://github.com/termux/command-not-found
+Depends: libc++
+Description: Suggest installation of packages in interactive shell sessions
+Filename: ./command-not-found_3.5.0-21_aarch64.deb
+Size: 119420
+MD5sum: 3c5c6463d6173f4ec7559bbc8600576a
+SHA1: 50eb398db7139f361906c16857c444ec083efd53
+SHA256: 18bf0eb6cdaf58d4b1c9dcffd8acd55ca157194278239c4267ae426e9e44d127
+
 Package: libnspr-static
 Architecture: aarch64
 Installed-Size: 2076
@@ -24,6 +38,19 @@ Size: 181428
 MD5sum: a7ce2e1fca8f2a13cd4ccf682693738b
 SHA1: 124486ae6237b24beb870c2772d5a3a3e518e966
 SHA256: 18ed781e86d8d808d5da1bb75a8301f39ff8ddbbde1efb3e254c4b4bffc5651a
+
+Package: pv
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: @termux
+Version: 1.12.7-2
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Terminal-based tool for monitoring the progress of data through a pipeline
+Filename: ./pv_1.12.7-2_aarch64.deb
+Size: 89596
+MD5sum: 4ef22fab36354e72f6107c849a88a445
+SHA1: 8e54a4b60c272c5e816715568de7f9d09f63b372
+SHA256: 0a0a123541ea61ad42a8f12fa60f0aa34f536b81cae5002e6072a7fb42c9b890
 
 Package: ruby-ri
 Architecture: all
