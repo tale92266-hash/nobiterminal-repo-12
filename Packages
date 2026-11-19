@@ -1,0 +1,71 @@
+Package: libnspr-static
+Architecture: aarch64
+Installed-Size: 2076
+Maintainer: @termux
+Version: 4.41-1
+Homepage: https://hg.mozilla.org/projects/nspr
+Depends: libnspr (= 4.41-1)
+Description: Static libraries for libnspr
+Filename: ./libnspr-static_4.41-1_aarch64.deb
+Size: 395068
+MD5sum: 4bcc5f837f7435b98c461c8af8d9e451
+SHA1: d926b8786573c45e34c27fcac7385b6fd3410972
+SHA256: fa0eb2b8ccf16084e04077800f6779fd43165cd9690f9e20d41002a4e9dfd505
+
+Package: libnspr
+Architecture: aarch64
+Installed-Size: 1064
+Maintainer: @termux
+Version: 4.41-1
+Homepage: https://hg.mozilla.org/projects/nspr
+Description: Netscape Portable Runtime (NSPR)
+Filename: ./libnspr_4.41-1_aarch64.deb
+Size: 181428
+MD5sum: a7ce2e1fca8f2a13cd4ccf682693738b
+SHA1: 124486ae6237b24beb870c2772d5a3a3e518e966
+SHA256: 18ed781e86d8d808d5da1bb75a8301f39ff8ddbbde1efb3e254c4b4bffc5651a
+
+Package: ruby-ri
+Architecture: all
+Installed-Size: 64052
+Maintainer: @termux
+Version: 4.0.10-1
+Homepage: https://www.ruby-lang.org/
+Depends: ruby (= 4.0.10-1)
+Description: Ruby documentation index
+Filename: ./ruby-ri_4.0.10-1_all.deb
+Size: 1710028
+MD5sum: ea3f1376a38d7f94d338b69051da668a
+SHA1: 2ad9584ada763d77bd5ecb7de50d72474c0b1c12
+SHA256: e7d5bf8570bd617db2bccda789e56799e34cf02125aa2d044ab5b9a77d980990
+
+Package: ruby
+Architecture: aarch64
+Installed-Size: 46196
+Maintainer: @termux
+Version: 4.0.10-1
+Homepage: https://www.ruby-lang.org/
+Breaks: ruby-dev
+Depends: libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config, resolv-conf
+Replaces: ruby-dev
+Description: Dynamic programming language with a focus on simplicity and productivity
+Filename: ./ruby_4.0.10-1_aarch64.deb
+Size: 9748624
+MD5sum: ade426edf4dab0e9b6ba70885896b6cd
+SHA1: 430060b2f4be12d5030b7bfdc9c4b340a8c5b913
+SHA256: 32634ae4266237501d998f0e5e4d9a0d925576706a52a02b904bc98c5e1606fc
+
+Package: zellij
+Architecture: aarch64
+Installed-Size: 53196
+Maintainer: Jonathan Lei <me@xjonathan.dev>
+Version: 0.46.0-1
+Homepage: https://zellij.dev/
+Depends: openssl
+Description: A terminal workspace with batteries included
+Filename: ./zellij_0.46.0-1_aarch64.deb
+Size: 10852304
+MD5sum: 80d7dfb3ee76481a717c095d73a870b2
+SHA1: a9d03f0633b78b16e79af3de00ca6c97ceef77c0
+SHA256: 52c26b6617407ff64a4de2d8501bbba138abfe6a0f8f92fdb76820cfefca494a
