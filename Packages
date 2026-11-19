@@ -54,6 +54,48 @@ MD5sum: 9a43e45c7cfe4b6a43bed2669cbc9527
 SHA1: 4d26b17356bfd32248dcb4ed82bdce317be533d7
 SHA256: e3d0955c3fe64cada432b34ab825b1542c27c5de4e095f0191eaa60fa14fb3b4
 
+Package: libadrenotools
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 20240910+g8fae8ce2-1
+Homepage: https://github.com/bylaws/libadrenotools
+Depends: libc++
+Description: Library for applying rootless system GPU driver modifications/replacements
+Filename: ./libadrenotools_20240910+g8fae8ce2-1_aarch64.deb
+Size: 27644
+MD5sum: 894ff2633b80a09fb4367a254ddc3ce3
+SHA1: 6119f80a8d04f76627de943aac8e47ef0d94aaee
+SHA256: 7e5b52bb07bc33caa47192b0d0201886c376c19f0975b3fef2c907e153326842
+
+Package: libexempi-static
+Architecture: aarch64
+Installed-Size: 6576
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Version: 2.6.6-1
+Homepage: https://gitlab.freedesktop.org/libopenraw/exempi
+Depends: libexempi (= 2.6.6-1)
+Description: Static libraries for libexempi
+Filename: ./libexempi-static_2.6.6-1_aarch64.deb
+Size: 789512
+MD5sum: 69aee41dffa95fd825e2335c353af128
+SHA1: 383b3ddd675747cb5b720ed5591d4cf9e675c634
+SHA256: 1e2421b095760374f6eea7cb0d6ebb7a672a9fe71de75ad1f37cbb57f856dad3
+
+Package: libexempi
+Architecture: aarch64
+Installed-Size: 1440
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Version: 2.6.6-1
+Homepage: https://gitlab.freedesktop.org/libopenraw/exempi
+Depends: libc++, libexpat, libiconv, zlib
+Description: XMP metadata handling library
+Filename: ./libexempi_2.6.6-1_aarch64.deb
+Size: 417972
+MD5sum: 06a52be9d686d462801d91d881626255
+SHA1: fa61cd83bea0ea2cd12275f2470071b8ef171062
+SHA256: 9d8e308942171d7e68b790ac6578a378702e4f2e49565510338b88a1d67437fb
+
 Package: libmspub-static
 Architecture: aarch64
 Installed-Size: 1908
@@ -139,6 +181,20 @@ MD5sum: 52fcab167d0ce4c892865a1c9f8aa029
 SHA1: 87e18bb08201ba56346b7f31c3c83cc690ef9c35
 SHA256: 4145ff42f27f690920ac9544312775f26d8ff4ece10fc3fdd97441ed90523ed6
 
+Package: libpsl-native
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 700.0.1-1
+Homepage: https://github.com/PowerShell/PowerShell-Native
+Depends: libc++
+Description: This library provides functionality missing from .NET Core via system calls
+Filename: ./libpsl-native_700.0.1-1_aarch64.deb
+Size: 18640
+MD5sum: 5b7838fd8693ef06915e3067f1998964
+SHA1: b929846c81d685465b32176c4ff79b0e995ece7d
+SHA256: d5b4778cb7c757aef028bfba5b9fcbcda29a376f2b163304766ddd83822d86c9
+
 Package: ncdu2
 Architecture: aarch64
 Installed-Size: 1080
@@ -200,6 +256,20 @@ MD5sum: 7350a8aa27034a34e743b96cdad454a8
 SHA1: 54cad62b45e64dce04c2d8bde9624301f9610912
 SHA256: 32b4df267a901601f75ddec567b9e6bf1ad1c2f014a9e8508484e1b182ab01a7
 
+Package: psl-native-test
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @termux
+Version: 700.0.1-1
+Homepage: https://github.com/PowerShell/PowerShell-Native
+Depends: googletest, libc++, libpsl-native (= 700.0.1-1)
+Description: psl-native-test
+Filename: ./psl-native-test_700.0.1-1_aarch64.deb
+Size: 44452
+MD5sum: 91090da11c3ae1821980f86eb682420b
+SHA1: fc8aa046393471b71bf51f48d3eff582decd2f03
+SHA256: 260850784e361ec1f78480e9fd370bd7b659d9a7e261a9e634d01dfaf4921e45
+
 Package: pv
 Architecture: aarch64
 Installed-Size: 292
@@ -212,6 +282,20 @@ Size: 89596
 MD5sum: 4ef22fab36354e72f6107c849a88a445
 SHA1: 8e54a4b60c272c5e816715568de7f9d09f63b372
 SHA256: 0a0a123541ea61ad42a8f12fa60f0aa34f536b81cae5002e6072a7fb42c9b890
+
+Package: python-pandas
+Architecture: aarch64
+Installed-Size: 56888
+Maintainer: @termux
+Version: 3.1.1-1
+Homepage: https://pandas.pydata.org/
+Depends: libc++, python, python-numpy, python-pip
+Description: Powerful Python data analysis toolkit
+Filename: ./python-pandas_3.1.1-1_aarch64.deb
+Size: 7996940
+MD5sum: af44415315e99cec74651f14621f6454
+SHA1: 5479cc696496b05a72b33c730511b7faac631470
+SHA256: 0818b8ad7657a9fac1bd1655f86c0d55562442a85b7ec1c780f25ca532275510
 
 Package: restic
 Architecture: aarch64
@@ -257,6 +341,48 @@ Size: 9748624
 MD5sum: ade426edf4dab0e9b6ba70885896b6cd
 SHA1: 430060b2f4be12d5030b7bfdc9c4b340a8c5b913
 SHA256: 32634ae4266237501d998f0e5e4d9a0d925576706a52a02b904bc98c5e1606fc
+
+Package: spirv-cross
+Architecture: aarch64
+Installed-Size: 17240
+Maintainer: @CosmyBeyondStars
+Version: 1.4.363.0-1
+Homepage: https://github.com/KhronosGroup/SPIRV-Cross
+Description: Practical tool and library for performing reflection on SPIR-V
+Filename: ./spirv-cross_1.4.363.0-1_aarch64.deb
+Size: 1840476
+MD5sum: de56e6fda6b307b10d56b5d3e6808207
+SHA1: 8465a34f8128f51fbc6324a3dc533ddc2c56cbaf
+SHA256: c7a6933a9977a4bad754a7dfcff97787707f22effefe9d37d2e7e02f6582b389
+
+Package: valgrind-static
+Architecture: aarch64
+Installed-Size: 33152
+Maintainer: @termux
+Version: 3.28.0-1
+Homepage: https://valgrind.org/
+Depends: valgrind (= 3.28.0-1)
+Description: Static libraries for valgrind
+Filename: ./valgrind-static_3.28.0-1_aarch64.deb
+Size: 5447864
+MD5sum: 8b024217bac6bbab47550ff0245e400f
+SHA1: c5a0d0ac47b4d352644de7e333d82c4dd0d0766a
+SHA256: 771423e73e9b6841722d91116f4d600b8258ac030bed96aa82d1bd56ecd8cb25
+
+Package: valgrind
+Architecture: aarch64
+Installed-Size: 23164
+Maintainer: @termux
+Version: 3.28.0-1
+Homepage: https://valgrind.org/
+Breaks: valgrind-dev
+Replaces: valgrind-dev
+Description: Instrumentation framework for building dynamic analysis tools
+Filename: ./valgrind_3.28.0-1_aarch64.deb
+Size: 2828724
+MD5sum: 543935497d1b3800b6db707e5c86c181
+SHA1: 1b3b0694709297c8cd5e49248c653d17ae161d4a
+SHA256: 14a986674a48a09b14d20d12064590d4ff3371fd01b09db688aa6e03b884cbc3
 
 Package: vulkan-validation-layers
 Architecture: aarch64
