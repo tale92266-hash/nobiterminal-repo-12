@@ -12,6 +12,50 @@ MD5sum: 3c5c6463d6173f4ec7559bbc8600576a
 SHA1: 50eb398db7139f361906c16857c444ec083efd53
 SHA256: 18bf0eb6cdaf58d4b1c9dcffd8acd55ca157194278239c4267ae426e9e44d127
 
+Package: libmspub-static
+Architecture: aarch64
+Installed-Size: 1908
+Maintainer: @termux
+Version: 0.1.6-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libmspub (= 0.1.6-1)
+Description: Static libraries for libmspub
+Filename: ./libmspub-static_0.1.6-1_aarch64.deb
+Size: 204636
+MD5sum: c694e37f1090992caa69afdd91e8c56e
+SHA1: 48b9905465e1a77f6d72a6d1133449547c921129
+SHA256: 067f836697b0902d41b9961f80207ca45e43f2e515c75db25ebb97e23774ba6d
+
+Package: libmspub
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: @termux
+Version: 0.1.6-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libwpd, libicu, libxml2, librevenge, zlib
+Description: Microsoft Publisher file format parser library (latest snapshot)
+Filename: ./libmspub_0.1.6-1_aarch64.deb
+Size: 115596
+MD5sum: 79e852e3d6f01c0b08a0d183b72230ab
+SHA1: bf9f5fb6660d780b9446c60c6796508d9c165cc8
+SHA256: 224296762b46798ac96f95c19ba4773f0839c783ec76388f53277b41bfd5a2b9
+
+Package: libnfs
+Architecture: aarch64
+Installed-Size: 1060
+Maintainer: @termux
+Version: 8.1.0-1
+Homepage: https://github.com/sahlberg/libnfs
+Breaks: libnfs-dev
+Depends: libgnutls
+Replaces: libnfs-dev
+Description: NFS client library
+Filename: ./libnfs_8.1.0-1_aarch64.deb
+Size: 191528
+MD5sum: 9bf4fff5c4f99a7f043f0cd167b56a3b
+SHA1: e1f01ae766c47425aa285ee401b2f305b951cfd4
+SHA256: 63b9b5d958f7988eeae2c7c9b31dee0440574650f26f92eeb3c6e239d29e0622
+
 Package: libnspr-static
 Architecture: aarch64
 Installed-Size: 2076
