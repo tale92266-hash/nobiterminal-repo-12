@@ -256,6 +256,34 @@ MD5sum: 7350a8aa27034a34e743b96cdad454a8
 SHA1: 54cad62b45e64dce04c2d8bde9624301f9610912
 SHA256: 32b4df267a901601f75ddec567b9e6bf1ad1c2f014a9e8508484e1b182ab01a7
 
+Package: pipetto-crypto-vulkan-icd-wrapper
+Architecture: aarch64
+Installed-Size: 1620
+Maintainer: @termux
+Version: 0.0.2-1
+Homepage: https://github.com/Pipetto-crypto/mesa
+Depends: libadrenotools, libandroid-shmem, libc++, libdrm, libwayland, libx11, libxcb, libxshmfence, vulkan-loader-generic
+Description: Android's Vulkan driver as a Vulkan ICD (AdrenoTools included)
+Filename: ./pipetto-crypto-vulkan-icd-wrapper_0.0.2-1_aarch64.deb
+Size: 415844
+MD5sum: 273ef3bdd50891c372e38372661c2f15
+SHA1: 00a974c7023674ee88e71964bb6c2d5a4933ae5e
+SHA256: 31c876f3593ec56119edeb7c7faabdc73affe694e907414daf4bef1f02c6014a
+
+Package: powershell
+Architecture: aarch64
+Installed-Size: 85400
+Maintainer: @termux
+Version: 7.6.10-1
+Homepage: https://learn.microsoft.com/en-us/powershell/
+Depends: dotnet-host, dotnet-runtime-10.0, libc++, libpsl-native, openssl, zlib
+Description: Cross-platform automation and configuration tool/framework
+Filename: ./powershell_7.6.10-1_aarch64.deb
+Size: 17038472
+MD5sum: ada7c827fb18508d991aea658fbdc1f4
+SHA1: 4003bba4f1d478751b0924fb007413aeb205be0b
+SHA256: e4aba1ba8a3dc40551843689e1c6d752e02c394d16bbfc1bac58a5ba4208a65f
+
 Package: psl-native-test
 Architecture: aarch64
 Installed-Size: 252
