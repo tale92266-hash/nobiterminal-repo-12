@@ -1,3 +1,17 @@
+Package: bun
+Architecture: aarch64
+Installed-Size: 86968
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.4.5-1
+Homepage: https://bun.com
+Depends: libicu
+Description: Incredibly fast JavaScript runtime, bundler, test runner, and package manager
+Filename: ./bun_1.4.5-1_aarch64.deb
+Size: 25623784
+MD5sum: 2933f64c544a4729289bbf034282080d
+SHA1: 2e9c3e1deeb1f9306c154e8a71b52f38baf68859
+SHA256: ed37717634258bba0d610a786be20ec26ba99acd163aa85f5a11658ce718a399
+
 Package: command-not-found
 Architecture: aarch64
 Installed-Size: 728
@@ -11,6 +25,34 @@ Size: 119420
 MD5sum: 3c5c6463d6173f4ec7559bbc8600576a
 SHA1: 50eb398db7139f361906c16857c444ec083efd53
 SHA256: 18bf0eb6cdaf58d4b1c9dcffd8acd55ca157194278239c4267ae426e9e44d127
+
+Package: dumbpipe
+Architecture: aarch64
+Installed-Size: 7176
+Maintainer: @termux
+Version: 0.40.2-1
+Homepage: https://www.dumbpipe.dev/
+Depends: resolv-conf
+Description: A CLI tool to pipe data over the network, with NAT hole punching
+Filename: ./dumbpipe_0.40.2-1_aarch64.deb
+Size: 2470044
+MD5sum: fdb209367fb73ed975664c6df2af31a5
+SHA1: a7c4ea27dad2d535edee9e39f75ab02667711dce
+SHA256: ca38889b8e9cc7795de237dcad9a0670e1058d2a2d3199d7ac55733dce3c39da
+
+Package: git-delta
+Architecture: aarch64
+Installed-Size: 5576
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.21.1-1
+Homepage: https://dandavison.github.io/delta/
+Depends: git, libgit2, oniguruma
+Description: A syntax-highlighter for git and diff output
+Filename: ./git-delta_0.21.1-1_aarch64.deb
+Size: 2169076
+MD5sum: 9a43e45c7cfe4b6a43bed2669cbc9527
+SHA1: 4d26b17356bfd32248dcb4ed82bdce317be533d7
+SHA256: e3d0955c3fe64cada432b34ab825b1542c27c5de4e095f0191eaa60fa14fb3b4
 
 Package: libmspub-static
 Architecture: aarch64
@@ -83,6 +125,81 @@ MD5sum: a7ce2e1fca8f2a13cd4ccf682693738b
 SHA1: 124486ae6237b24beb870c2772d5a3a3e518e966
 SHA256: 18ed781e86d8d808d5da1bb75a8301f39ff8ddbbde1efb3e254c4b4bffc5651a
 
+Package: libnss
+Architecture: aarch64
+Installed-Size: 8656
+Maintainer: @termux
+Version: 3.134-1
+Homepage: https://firefox-source-docs.mozilla.org/security/nss/
+Depends: libnspr, libsqlite
+Description: Network Security Services (NSS)
+Filename: ./libnss_3.134-1_aarch64.deb
+Size: 1790880
+MD5sum: 52fcab167d0ce4c892865a1c9f8aa029
+SHA1: 87e18bb08201ba56346b7f31c3c83cc690ef9c35
+SHA256: 4145ff42f27f690920ac9544312775f26d8ff4ece10fc3fdd97441ed90523ed6
+
+Package: ncdu2
+Architecture: aarch64
+Installed-Size: 1080
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.13.0-1
+Homepage: https://dev.yorhel.nl/ncdu
+Conflicts: ncdu
+Replaces: ncdu
+Description: Disk usage analyzer
+Filename: ./ncdu2_2.13.0-1_aarch64.deb
+Size: 387688
+MD5sum: b406c6dc560f481ef6d8cdfafa0cdb6a
+SHA1: be4694b0397b52ecd5a7dcb92abfd51c2b905076
+SHA256: 81fd727159b79bc7c1e3fa30de5a78b1fd1ad0a8479f2c17cd7c7f13f3555b74
+
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33968
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2146+g158f7d603e-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2146+g158f7d603e-1_aarch64.deb
+Size: 6275444
+MD5sum: 79c7cab098b7153eea91630dbfe96ea6
+SHA1: 6bb3c8ded0ad6b2098bb3d55238072b66451d377
+SHA256: c894d4ba77b363d57efa68c842b72a1979dc2ba9969fca3331e779e1cd8085e1
+
+Package: nss-utils
+Architecture: aarch64
+Installed-Size: 7616
+Maintainer: @termux
+Version: 3.134-1
+Homepage: https://firefox-source-docs.mozilla.org/security/nss/
+Depends: zlib, libnss (= 3.134-1)
+Description: Tools for NSS
+Filename: ./nss-utils_3.134-1_aarch64.deb
+Size: 1305088
+MD5sum: bd5eff37aa36d806dfd2941dc3eaf2ae
+SHA1: 197184fbeca5f7e10aabd4dac370ada37a3720a2
+SHA256: 864148f587c1ce195575f2cc4f64a0ef1fa528d6a1c48990a8ad0bd4954e47fb
+
+Package: openlist
+Architecture: aarch64
+Installed-Size: 169196
+Maintainer: 2096779623 <admin@utermux.dev>
+Version: 4.2.10-1
+Homepage: https://oplist.org/
+Conflicts: alist
+Replaces: alist
+Provides: alist
+Description: A file list program that supports multiple storage
+Filename: ./openlist_4.2.10-1_aarch64.deb
+Size: 39288552
+MD5sum: 7350a8aa27034a34e743b96cdad454a8
+SHA1: 54cad62b45e64dce04c2d8bde9624301f9610912
+SHA256: 32b4df267a901601f75ddec567b9e6bf1ad1c2f014a9e8508484e1b182ab01a7
+
 Package: pv
 Architecture: aarch64
 Installed-Size: 292
@@ -95,6 +212,20 @@ Size: 89596
 MD5sum: 4ef22fab36354e72f6107c849a88a445
 SHA1: 8e54a4b60c272c5e816715568de7f9d09f63b372
 SHA256: 0a0a123541ea61ad42a8f12fa60f0aa34f536b81cae5002e6072a7fb42c9b890
+
+Package: restic
+Architecture: aarch64
+Installed-Size: 52240
+Maintainer: @termux
+Version: 0.20.0-1
+Homepage: https://restic.net/
+Suggests: openssh, rclone, restic-server
+Description: Fast, secure, efficient backup program
+Filename: ./restic_0.20.0-1_aarch64.deb
+Size: 10638136
+MD5sum: 893ed60e1bde4c91a14539c7a21b98bf
+SHA1: 010afdf458f3d814b0808a14396b26005e79df5c
+SHA256: cabdfb96b1413a263872f32780b496ba075fd2c00a2e08066882f0b9ef8d6b40
 
 Package: ruby-ri
 Architecture: all
@@ -126,6 +257,20 @@ Size: 9748624
 MD5sum: ade426edf4dab0e9b6ba70885896b6cd
 SHA1: 430060b2f4be12d5030b7bfdc9c4b340a8c5b913
 SHA256: 32634ae4266237501d998f0e5e4d9a0d925576706a52a02b904bc98c5e1606fc
+
+Package: vulkan-validation-layers
+Architecture: aarch64
+Installed-Size: 27740
+Maintainer: @termux
+Version: 1.4.368-1
+Homepage: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+Depends: libc++, vulkan-loader
+Description: Vulkan Validation Layers
+Filename: ./vulkan-validation-layers_1.4.368-1_aarch64.deb
+Size: 5056276
+MD5sum: 29df3b394f89fdaa1382fd42e84d5bd3
+SHA1: a1028aecb0e8853aa62d8dd44eff707dcf87a933
+SHA256: 439f06f21040414fe3bc3730346faec3225dbf43f26a9e61a94b9d7804e1f6a7
 
 Package: zellij
 Architecture: aarch64
