@@ -507,6 +507,34 @@ MD5sum: a706e58573cf2b08a5ac61233c152e0f
 SHA1: 274ebafbf3b1ac67b6f482e9b9c91d6260090910
 SHA256: bc26c640f214ec1e9e9888b08d866cb8d7e9644f0126a96ede73969791d65549
 
+Package: mpd
+Architecture: aarch64
+Installed-Size: 7736
+Maintainer: @termux
+Version: 0.24.19-1
+Homepage: https://www.musicpd.org
+Depends: libchromaprint, dbus, ffmpeg, game-music-emu, libao, libbz2, libc++, libcurl, libexpat, libflac, libicu, libid3tag, libmad, libmp3lame, libmodplug, libmpdclient, libnfs, libogg, libopenmpt, libopus, libsamplerate, libsndfile, libsoxr, libsqlite, libvorbis, libwavpack, libmpg123, openal-soft, pcre2, pulseaudio, yajl, zlib, fmt
+Description: Music player daemon
+Filename: ./mpd_0.24.19-1_aarch64.deb
+Size: 2814712
+MD5sum: 5b80aaca97648304ce5ed7d73d57f405
+SHA1: 8751dbdfeb87ea055b42141adeb9db98489cdcb1
+SHA256: cd8d429aaf4109e213b7ea97251280580e02647893d9d0c4662f4fb7f79966bd
+
+Package: mplayer
+Architecture: aarch64
+Installed-Size: 4440
+Maintainer: @termux
+Version: 1.5-17
+Homepage: https://mplayerhq.hu/
+Depends: alsa-lib, ffmpeg, fontconfig, freetype, fribidi, liba52, libass, libbluray, libdvdnav, libdvdread, libiconv, libjpeg-turbo, liblzo, libmad, libmp3lame, libogg, libpng, libtheora, libtwolame, libvorbis, libx11, libx264, libxext, libxss, libxv, libmpg123, ncurses, openal-soft, pulseaudio, xvidcore, zlib
+Description: The Movie Player
+Filename: ./mplayer_1.5-17_aarch64.deb
+Size: 850592
+MD5sum: 5ae427388cedb6eb452563839b230808
+SHA1: 8b0519d83fbb9f1540894e591d9f0630cee1882d
+SHA256: 57f15aeb843c3b043d479ea96d759ca0ea147fdfb87a70f13ed44e00a75fb428
+
 Package: navidrome
 Architecture: aarch64
 Installed-Size: 71396
@@ -697,6 +725,20 @@ MD5sum: 273ef3bdd50891c372e38372661c2f15
 SHA1: 00a974c7023674ee88e71964bb6c2d5a4933ae5e
 SHA256: 31c876f3593ec56119edeb7c7faabdc73affe694e907414daf4bef1f02c6014a
 
+Package: pipewire
+Architecture: aarch64
+Installed-Size: 10608
+Maintainer: @termux
+Version: 1.4.9-3
+Homepage: https://pipewire.org/
+Depends: ffmpeg, glib, libc++, lua54, libopus, libsndfile, libwebrtc-audio-processing, lilv, ncurses, openssl, pulseaudio, readline
+Description: A server and user space API to deal with multimedia pipelines
+Filename: ./pipewire_1.4.9-3_aarch64.deb
+Size: 1780808
+MD5sum: ce47bdcbda7e99119c2210b7349b53da
+SHA1: f4784281b74569f3498303bde64618f92a625ec7
+SHA256: 507b14505484aa24f400496345b6f58eda071681c9576fc1adfeefb279849936
+
 Package: powershell
 Architecture: aarch64
 Installed-Size: 85400
@@ -872,6 +914,36 @@ Size: 9748624
 MD5sum: ade426edf4dab0e9b6ba70885896b6cd
 SHA1: 430060b2f4be12d5030b7bfdc9c4b340a8c5b913
 SHA256: 32634ae4266237501d998f0e5e4d9a0d925576706a52a02b904bc98c5e1606fc
+
+Package: sox-static
+Architecture: aarch64
+Installed-Size: 1720
+Maintainer: @termux
+Version: 14.9.0-1
+Homepage: https://codeberg.org/sox_ng/sox_ng
+Depends: sox (= 14.9.0-1)
+Description: Static libraries for sox
+Filename: ./sox-static_14.9.0-1_aarch64.deb
+Size: 362824
+MD5sum: 0233c63a8bd9411281dcf5bce72b6768
+SHA1: 55ef6449ce600993a712c026e754a132cd83df6c
+SHA256: 1e8a7d1d8b158fd7cf743c0b65eb84fa825a801a1f72c91e8c608929f0676ea8
+
+Package: sox
+Architecture: aarch64
+Installed-Size: 1840
+Maintainer: @termux
+Version: 14.9.0-1
+Homepage: https://codeberg.org/sox_ng/sox_ng
+Breaks: sox-dev
+Depends: libandroid-glob, libao, libflac, libiconv, libid3tag, libltdl, libmad, libmagic, libmp3lame, libogg, libpng, libsndfile, libvorbis, opusfile, pulseaudio, speexdsp, zlib, wget
+Replaces: sox-dev
+Description: Command line utility for converting between and applying effects to various audio files formats
+Filename: ./sox_14.9.0-1_aarch64.deb
+Size: 625828
+MD5sum: b99cefc8d82d3715eafd95253c52219d
+SHA1: 954688763e85c7a660f135ae26fceff20fbbca39
+SHA256: 77b3c59620fd3f25182d67efdde91bb8368ea33ff55ca6b4a2f7a8d4503702af
 
 Package: spirv-cross
 Architecture: aarch64
@@ -1054,6 +1126,20 @@ Size: 159060
 MD5sum: 94b54596d9a2537cd82c0446a0d3b22f
 SHA1: d43f98ccdd85741f9fba995218829bad1f80fa6a
 SHA256: be8d83f349a7eb137b466c1149770b57a72ea8590c136cb23cc46c3a83354d03
+
+Package: vgmstream
+Architecture: aarch64
+Installed-Size: 5384
+Maintainer: @termux
+Version: 2168-1
+Homepage: https://github.com/vgmstream/vgmstream
+Depends: ffmpeg, libao, libjansson, libspeex, libvorbis, libmpg123
+Description: A library for playback of various streamed audio formats used in video games
+Filename: ./vgmstream_2168-1_aarch64.deb
+Size: 846208
+MD5sum: fa9e72c035772bc33957549c94e9ab09
+SHA1: 899cdbe6a4164ea19c752b259b333373af48aca5
+SHA256: cc1510087034e18c30b207402d0f348001ec9f1acc65438fb9171da50a1fcaae
 
 Package: vulkan-validation-layers
 Architecture: aarch64
