@@ -40,6 +40,23 @@ MD5sum: fdb209367fb73ed975664c6df2af31a5
 SHA1: a7c4ea27dad2d535edee9e39f75ab02667711dce
 SHA256: ca38889b8e9cc7795de237dcad9a0670e1058d2a2d3199d7ac55733dce3c39da
 
+Package: ffmpeg
+Architecture: aarch64
+Installed-Size: 37300
+Maintainer: @termux
+Version: 9.0.2-3
+Homepage: https://ffmpeg.org
+Breaks: ffmpeg-dev
+Depends: fontconfig, freetype, fribidi, game-music-emu, harfbuzz, libaom, libandroid-glob, libandroid-shmem, libandroid-stub, libass, libbluray, libbs2b, libbz2, libdav1d, libdvdnav, libdvdread, libiconv, libjxl, liblzma, libmysofa, libmp3lame, libopencore-amr, libopenmpt, libopus, libplacebo, librav1e, libsoxr, libsrt, libssh, libtheora, libv4l, libvidstab, libvmaf, libvo-amrwbenc, libvorbis, libvpx, libwebp, libx264, libx265, libxcb, libxml2, libzimg, libzmq, littlecms, ocl-icd, openssl, rubberband, svt-av1, vulkan-icd, xvidcore, zlib
+Conflicts: libav
+Replaces: ffmpeg-dev
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+Filename: ./ffmpeg_9.0.2-3_aarch64.deb
+Size: 11558152
+MD5sum: 9a565635b2aa3d8adbf85f217f55220d
+SHA1: 069f66eea6ff4e90a1f23d407fe7226e0eab9b05
+SHA256: c9b595113acca8edbbc11fa0913b170ff87d9d37d050487ae37a74f735e77ee0
+
 Package: git-delta
 Architecture: aarch64
 Installed-Size: 5576
