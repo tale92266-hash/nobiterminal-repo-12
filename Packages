@@ -54,6 +54,20 @@ MD5sum: 9a43e45c7cfe4b6a43bed2669cbc9527
 SHA1: 4d26b17356bfd32248dcb4ed82bdce317be533d7
 SHA256: e3d0955c3fe64cada432b34ab825b1542c27c5de4e095f0191eaa60fa14fb3b4
 
+Package: ladspa-sdk
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.17-4
+Homepage: https://www.ladspa.org/
+Depends: libc++, libsndfile
+Description: Linux Audio Developer's Simple Plugin API
+Filename: ./ladspa-sdk_1.17-4_aarch64.deb
+Size: 22932
+MD5sum: 63e6b0696452cd41a3926f2f1d5b1058
+SHA1: 0ba7915005b3534fea014050ba39adcc3454cae1
+SHA256: 695d60905bd292b523f924abe0c56f04ff10b77c229ecdfedf305d7abc1d471a
+
 Package: libadrenotools
 Architecture: aarch64
 Installed-Size: 192
@@ -67,6 +81,34 @@ Size: 27644
 MD5sum: 894ff2633b80a09fb4367a254ddc3ce3
 SHA1: 6119f80a8d04f76627de943aac8e47ef0d94aaee
 SHA256: 7e5b52bb07bc33caa47192b0d0201886c376c19f0975b3fef2c907e153326842
+
+Package: libbs2b-static
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: @termux
+Version: 3.1.0-3
+Homepage: https://bs2b.sourceforge.net/
+Depends: libbs2b (= 3.1.0-3)
+Description: Static libraries for libbs2b
+Filename: ./libbs2b-static_3.1.0-3_aarch64.deb
+Size: 45380
+MD5sum: a8e12441d0939df16d09fb48be8a1737
+SHA1: e63da92058b3a7e0ea9b7f9bd1b88ee605b09fbd
+SHA256: 8b54707a57cc67a04c90fe9e9f795f74549ddcac0c252f4db3e1ffa2810c6a56
+
+Package: libbs2b
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 3.1.0-3
+Homepage: https://bs2b.sourceforge.net/
+Depends: libc++, libsndfile
+Description: Bauer stereophonic-to-binaural DSP
+Filename: ./libbs2b_3.1.0-3_aarch64.deb
+Size: 13632
+MD5sum: 23ca304cef0e9c5e13a9123d1f3d2cfa
+SHA1: 7d611e4791695b50af7333aad795e30846bb937c
+SHA256: c7bf222c3418cd22cb6033bef10d7c40db920d800106583ebf7239c6684a34f5
 
 Package: libexempi-static
 Architecture: aarch64
@@ -181,6 +223,34 @@ MD5sum: 52fcab167d0ce4c892865a1c9f8aa029
 SHA1: 87e18bb08201ba56346b7f31c3c83cc690ef9c35
 SHA256: 4145ff42f27f690920ac9544312775f26d8ff4ece10fc3fdd97441ed90523ed6
 
+Package: libopenmpt-static
+Architecture: aarch64
+Installed-Size: 16656
+Maintainer: @termux
+Version: 0.8.10-1
+Homepage: https://lib.openmpt.org/libopenmpt/
+Depends: libopenmpt (= 0.8.10-1)
+Description: Static libraries for libopenmpt
+Filename: ./libopenmpt-static_0.8.10-1_aarch64.deb
+Size: 1394868
+MD5sum: 8f35f0040cde0c844229b3f0dbbaef68
+SHA1: ecb5709ca627089af5389360ec73c8d59a9fd482
+SHA256: b57463101b31bbbab523d4ddc98eecd05a0ae8db44f7df3922c6da1ab2878132
+
+Package: libopenmpt
+Architecture: aarch64
+Installed-Size: 1984
+Maintainer: @termux
+Version: 0.8.10-1
+Homepage: https://lib.openmpt.org/libopenmpt/
+Depends: libc++, libvorbis, libmpg123, zlib
+Description: Library to render tracker music formats to a PCM audio stream
+Filename: ./libopenmpt_0.8.10-1_aarch64.deb
+Size: 543892
+MD5sum: caec86ad67e0d13cffa3242d3424659c
+SHA1: a42f8b588b2eb571f85e7d1e392ae7a9b0d47fba
+SHA256: 4179a2737eab12f06a56d854aa14a113dbf98316fadcbc72fe2c67649ce88145
+
 Package: libpsl-native
 Architecture: aarch64
 Installed-Size: 92
@@ -255,6 +325,22 @@ Size: 39288552
 MD5sum: 7350a8aa27034a34e743b96cdad454a8
 SHA1: 54cad62b45e64dce04c2d8bde9624301f9610912
 SHA256: 32b4df267a901601f75ddec567b9e6bf1ad1c2f014a9e8508484e1b182ab01a7
+
+Package: openmpt123
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 0.8.10-1
+Homepage: https://lib.openmpt.org/libopenmpt/
+Depends: libflac, libsndfile, pulseaudio, libopenmpt (= 0.8.10-1)
+Breaks: libopenmpt (<< 0.8.2-1)
+Replaces: libopenmpt (<< 0.8.2-1)
+Description: libopenmpt based command-line player for tracker music formats
+Filename: ./openmpt123_0.8.10-1_aarch64.deb
+Size: 96892
+MD5sum: 64e5c23be3b26c55ca515086904e1b23
+SHA1: bacf837c22b04bfb711fcfc804de6e10fb37d18a
+SHA256: f454144f70d6072cc4e6d50dca2f5c84ac7a92f22c6c021184c7dc13d528ef5a
 
 Package: pipetto-crypto-vulkan-icd-wrapper
 Architecture: aarch64
@@ -338,6 +424,82 @@ Size: 10638136
 MD5sum: 893ed60e1bde4c91a14539c7a21b98bf
 SHA1: 010afdf458f3d814b0808a14396b26005e79df5c
 SHA256: cabdfb96b1413a263872f32780b496ba075fd2c00a2e08066882f0b9ef8d6b40
+
+Package: rubberband-ladspa
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 4.0.0-2
+Homepage: https://breakfastquay.com/rubberband/
+Depends: ladspa-sdk, rubberband (= 4.0.0-2)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Description: LADSPA plugin for Rubber Band
+Filename: ./rubberband-ladspa_4.0.0-2_aarch64.deb
+Size: 95004
+MD5sum: 4860c01966b4f9b3bbc73fa6e4aa2633
+SHA1: 49d1fee600b012941fce780c6ecf2a5ed1e6363b
+SHA256: cfb7dbddb7a820ff2ea82df9f95ca845f59c2700be97daf652bf43f2cd9f4ea8
+
+Package: rubberband-lv2
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 4.0.0-2
+Homepage: https://breakfastquay.com/rubberband/
+Depends: lv2, rubberband (= 4.0.0-2)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Description: LV2 plugin for Rubber Band
+Filename: ./rubberband-lv2_4.0.0-2_aarch64.deb
+Size: 96440
+MD5sum: 4cb254267ad08b826b2ac1939746aab9
+SHA1: 9d2af111d01ca9bca06cde79facf76ca04a8fc27
+SHA256: 7a41baee58707988f910a104e5355132f41f216fa9a795659b7acd05015dfc18
+
+Package: rubberband-static
+Architecture: aarch64
+Installed-Size: 1632
+Maintainer: @termux
+Version: 4.0.0-2
+Homepage: https://breakfastquay.com/rubberband/
+Depends: rubberband (= 4.0.0-2)
+Description: Static libraries for rubberband
+Filename: ./rubberband-static_4.0.0-2_aarch64.deb
+Size: 175216
+MD5sum: 583bb8b910e314fe2ab49f7862717180
+SHA1: 2b9066a4d6024f8c0b312138a7376e51e6c977fb
+SHA256: 4ad2204142758b0b58ea4cef2308a66afb7f258f92ded2c53772e71c2012c748
+
+Package: rubberband-vamp
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 4.0.0-2
+Homepage: https://breakfastquay.com/rubberband/
+Depends: vamp-plugin-sdk, rubberband (= 4.0.0-2)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Description: Vamp plugin for Rubber Band
+Filename: ./rubberband-vamp_4.0.0-2_aarch64.deb
+Size: 90712
+MD5sum: b86b6d8ffd3b1cb5056f2c08d1d1588d
+SHA1: 150ae162f3491d19e7a56d076ac843e0e870a20f
+SHA256: 2b3d1872868690aadc5a8668a75e03dbd42d65e5cb3a8a305303bf0d985d27da
+
+Package: rubberband
+Architecture: aarch64
+Installed-Size: 1540
+Maintainer: @termux
+Version: 4.0.0-2
+Homepage: https://breakfastquay.com/rubberband/
+Depends: fftw, libc++, libsamplerate, libsndfile
+Description: An audio time-stretching and pitch-shifting library and utility program
+Filename: ./rubberband_4.0.0-2_aarch64.deb
+Size: 202328
+MD5sum: 064bda72742dc0debf3ddd983e08a972
+SHA1: 3f71a13533f49b0345651dc6909da3743f4da7c0
+SHA256: bba44e22168feaf308b6409d4c08c02882a3271289aafe41bcc845272ee6af6f
 
 Package: ruby-ri
 Architecture: all
