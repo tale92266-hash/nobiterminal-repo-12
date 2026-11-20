@@ -1,3 +1,59 @@
+Package: alass
+Architecture: aarch64
+Installed-Size: 1372
+Maintainer: @termux
+Version: 2.0.0-6
+Homepage: https://github.com/kaegi/alass
+Depends: ffmpeg
+Description: Automatic Language-Agnostic Subtitle Synchronization
+Filename: ./alass_2.0.0-6_aarch64.deb
+Size: 560832
+MD5sum: 631b4b60321000a2e1c6115d8ae0f4a0
+SHA1: 0bb72b1f07b269d72c814eceec817fcd9fb74dbb
+SHA256: 102d1c4cb206783a5235eaf1fc44e34328d41dfa5b214a1be941f39fb473433a
+
+Package: alsa-plugins
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 1.2.12-3
+Homepage: https://www.alsa-project.org
+Depends: libandroid-sysv-semaphore, libandroid-shmem, alsa-lib, pulseaudio
+Description: The Advanced Linux Sound Architecture (ALSA) - plugins
+Filename: ./alsa-plugins_1.2.12-3_aarch64.deb
+Size: 33704
+MD5sum: 9accb40336329f0309930a70a9914eaa
+SHA1: 5c2cdde43c5794d95922b2afe6edc71af27d18c7
+SHA256: d57abf3bfe106a4bffee00baabf1933efc362ef364559227dd9250ca66fcbbec
+
+Package: aubio-static
+Architecture: aarch64
+Installed-Size: 1040
+Maintainer: @termux
+Version: 0.4.9-9
+Homepage: https://aubio.org/
+Depends: aubio (= 0.4.9-9)
+Description: Static libraries for aubio
+Filename: ./aubio-static_0.4.9-9_aarch64.deb
+Size: 191964
+MD5sum: d754b72bdf0c4010bf5124be6506e7d4
+SHA1: ccdd456de9fe7c561aa7a08a4422121995eacd49
+SHA256: 344cb4d59ff2d69603966c33c173e5fec8790f843a827e68cd6fc8065551c231
+
+Package: aubio
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 0.4.9-9
+Homepage: https://aubio.org/
+Depends: ffmpeg, libsamplerate, libsndfile
+Description: A library to label music and sounds
+Filename: ./aubio_0.4.9-9_aarch64.deb
+Size: 108100
+MD5sum: 2eba3377324def4c7c67d3510d92786c
+SHA1: 9d40945017075a028de024dbc5d068d50e162dc1
+SHA256: bf8b92a87df5d73dcf23af347041ad725d5908db90276eabc40246fbef608ba3
+
 Package: bun
 Architecture: aarch64
 Installed-Size: 86968
@@ -11,6 +67,20 @@ Size: 25623784
 MD5sum: 2933f64c544a4729289bbf034282080d
 SHA1: 2e9c3e1deeb1f9306c154e8a71b52f38baf68859
 SHA256: ed37717634258bba0d610a786be20ec26ba99acd163aa85f5a11658ce718a399
+
+Package: chromaprint
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.6.2-1
+Homepage: https://acoustid.org/chromaprint
+Depends: ffmpeg, libchromaprint (= 1.6.2-1)
+Description: C library for generating audio fingerprints used by AcoustID (fpcalc tool)
+Filename: ./chromaprint_1.6.2-1_aarch64.deb
+Size: 20208
+MD5sum: 483c47c524a616517867159e6641ba25
+SHA1: 640760a73ae6f0aabbf4c384e2e73e43c57a6236
+SHA256: df9b63d17454f01f8a42dcae6298c4edfb1c2e254d6bdc3f5d4b23734ea968d1
 
 Package: command-not-found
 Architecture: aarch64
@@ -57,6 +127,20 @@ MD5sum: 9a565635b2aa3d8adbf85f217f55220d
 SHA1: 069f66eea6ff4e90a1f23d407fe7226e0eab9b05
 SHA256: c9b595113acca8edbbc11fa0913b170ff87d9d37d050487ae37a74f735e77ee0
 
+Package: fluidsynth
+Architecture: aarch64
+Installed-Size: 1784
+Maintainer: @termux
+Version: 2.6.2-1
+Homepage: https://github.com/FluidSynth/fluidsynth
+Depends: dbus, glib, libc++, libsndfile, pulseaudio, readline
+Description: Software synthesizer based on the SoundFont 2 specifications
+Filename: ./fluidsynth_2.6.2-1_aarch64.deb
+Size: 505456
+MD5sum: 7fdf7db2b69b04f7b51716db84f5c413
+SHA1: 8a654378393c83efd3ee6ed479ee1c8932d4f6aa
+SHA256: 0d14802d634d0d8f554e28bbf32aed37845a3ee725a8b4b95a970ed9f209d270
+
 Package: git-delta
 Architecture: aarch64
 Installed-Size: 5576
@@ -99,6 +183,34 @@ MD5sum: 894ff2633b80a09fb4367a254ddc3ce3
 SHA1: 6119f80a8d04f76627de943aac8e47ef0d94aaee
 SHA256: 7e5b52bb07bc33caa47192b0d0201886c376c19f0975b3fef2c907e153326842
 
+Package: libao-static
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 1.2.2-9
+Homepage: https://www.xiph.org/ao/
+Depends: libao (= 1.2.2-9)
+Description: Static libraries for libao
+Filename: ./libao-static_1.2.2-9_aarch64.deb
+Size: 16520
+MD5sum: e959b0405c6549ddb8e2ea7df4a765a3
+SHA1: 7791762b2c1323db6474b6501c415cea6031d25a
+SHA256: 7ba10f6d954b8b29492f092e6817196b9e0e6a95810379e5c483847d12fd2aaf
+
+Package: libao
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.2.2-9
+Homepage: https://www.xiph.org/ao/
+Depends: pulseaudio
+Description: A cross platform audio library
+Filename: ./libao_1.2.2-9_aarch64.deb
+Size: 34832
+MD5sum: 59d5eccd36ecac9d9f981a76002d5d3a
+SHA1: dff8ae01c7a61eaa98cf267206c45bfa248433c9
+SHA256: f2dcb4efbeee630cb3e1a14e4e5f3b71532c3827e3bad261d0ba6c8bf4a30fd0
+
 Package: libbs2b-static
 Architecture: aarch64
 Installed-Size: 564
@@ -126,6 +238,22 @@ Size: 13632
 MD5sum: 23ca304cef0e9c5e13a9123d1f3d2cfa
 SHA1: 7d611e4791695b50af7333aad795e30846bb937c
 SHA256: c7bf222c3418cd22cb6033bef10d7c40db920d800106583ebf7239c6684a34f5
+
+Package: libchromaprint
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 1.6.2-1
+Homepage: https://acoustid.org/chromaprint
+Breaks: chromaprint (<< 1.5.1-p20250625)
+Depends: fftw, libc++
+Replaces: chromaprint (<< 1.5.1-p20250625)
+Description: C library for generating audio fingerprints used by AcoustID
+Filename: ./libchromaprint_1.6.2-1_aarch64.deb
+Size: 48880
+MD5sum: 83fe32885d4fb908d9c9e2f5814eb547
+SHA1: 6c932751a06f249c120f0679fbf5dfa904c2fd09
+SHA256: a85866fad4e3b238c54a9013a1945fe4274c1b043cdb22544f0b0905490138e0
 
 Package: libexempi-static
 Architecture: aarch64
@@ -282,6 +410,117 @@ MD5sum: 5b7838fd8693ef06915e3067f1998964
 SHA1: b929846c81d685465b32176c4ff79b0e995ece7d
 SHA256: d5b4778cb7c757aef028bfba5b9fcbcda29a376f2b163304766ddd83822d86c9
 
+Package: libtsduck-static
+Architecture: aarch64
+Installed-Size: 48208
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: libtsduck (= 3.45.4798-1)
+Description: Static libraries for libtsduck
+Filename: ./libtsduck-static_3.45.4798-1_aarch64.deb
+Size: 4424624
+MD5sum: 5234785391890f44ae5bff754e092cc9
+SHA1: 7d24291b702d5e1586850d8e02896163d261185f
+SHA256: 275a0654cb9030254db3748034eb776a7bf7f8abd5d9a1dc7665415d47669a34
+
+Package: libtsduck
+Architecture: aarch64
+Installed-Size: 23508
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: libandroid-glob, libc++, libcurl, libedit
+Description: An extensible toolkit for MPEG transport streams
+Filename: ./libtsduck_3.45.4798-1_aarch64.deb
+Size: 4187272
+MD5sum: c0bcb75e0c05d61ff0644808275cf5af
+SHA1: 27d126ec095338ccb7e50f9d2518d5f827a0d8b1
+SHA256: 4429a00e9638c407c4aaab707e573041e98345d529fedf453e569100617966be
+
+Package: libtwolame-static
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 0.4.0-2
+Homepage: https://www.twolame.org/
+Depends: libtwolame (= 0.4.0-2)
+Description: Static libraries for libtwolame
+Filename: ./libtwolame-static_0.4.0-2_aarch64.deb
+Size: 43140
+MD5sum: 45fd724d5ac0b8368b45d091af7418a5
+SHA1: 0913338dea85a887662ede371b7f248272a24219
+SHA256: 7cb5e6064cdbf955b250ac35366c85f489d66e9af3c4eaa848cab428df6a1b9a
+
+Package: libtwolame
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 0.4.0-2
+Homepage: https://www.twolame.org/
+Description: An optimised MPEG Audio Layer 2 (MP2) encoder
+Filename: ./libtwolame_0.4.0-2_aarch64.deb
+Size: 60652
+MD5sum: bfecff45c2b8608e978ef967e4b34439
+SHA1: 8082222192197ff2ef171e720bdefb8b5c949b79
+SHA256: 9c8b7ab94a6cd1c6ab7e2345edc85c8d969b898976ca5be733ab73dbb6791e87
+
+Package: lilv
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 0.28.0-1
+Homepage: https://drobilla.net/software/lilv.html
+Depends: libsndfile, libzix, lv2, serd, sord, sratom
+Description: A C library to make the use of LV2 plugins as simple as possible for applications
+Filename: ./lilv_0.28.0-1_aarch64.deb
+Size: 62180
+MD5sum: f0c6ec1fb1822555af525346ff68f5ab
+SHA1: f1208d8bbaa6fe1e7992924cfcdacb73a3e962fa
+SHA256: 40e893967f3fc77cde3bb156841e76fd7295846c67ec602bfed26b1f9e8292dd
+
+Package: minidlna
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 1.3.3-6
+Homepage: https://sourceforge.net/projects/minidlna/
+Depends: ffmpeg, libexif, libflac, libiconv, libid3tag, libjpeg-turbo, libogg, libsqlite, libvorbis
+Description: A server software with the aim of being fully compliant with DLNA/UPnP-AV clients
+Filename: ./minidlna_1.3.3-6_aarch64.deb
+Size: 122352
+MD5sum: ff74f2aab1a2d9257c4b81ffaa2e8bd8
+SHA1: 67d1a04ec6cfc72954ae0f05e895ca0eed5b3428
+SHA256: 7c2c0696de8d1639a7e05f172395e76ce2bb83860e92b02a0d34ec29386ed28a
+
+Package: mp3gain
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.6.2-3
+Homepage: https://mp3gain.sourceforge.net/
+Depends: libmpg123
+Description: Analyzes and adjusts mp3 files so that they have the same volume
+Filename: ./mp3gain_1.6.2-3_aarch64.deb
+Size: 26860
+MD5sum: a706e58573cf2b08a5ac61233c152e0f
+SHA1: 274ebafbf3b1ac67b6f482e9b9c91d6260090910
+SHA256: bc26c640f214ec1e9e9888b08d866cb8d7e9644f0126a96ede73969791d65549
+
+Package: navidrome
+Architecture: aarch64
+Installed-Size: 71396
+Maintainer: 2096779623 <admin@utermux.dev>
+Version: 0.64.2-4
+Homepage: https://www.navidrome.org/
+Depends: taglib, ffmpeg
+Description: Modern Music Server and Streamer compatible with Subsonic/Airsonic
+Filename: ./navidrome_0.64.2-4_aarch64.deb
+Size: 16786228
+MD5sum: 03a8e801c56f6899dd216b0cb63b8a96
+SHA1: 479f2b3f233ed4744272643f8f4de33ca4050b7b
+SHA256: 3867c0757a841b60091c5fb99e1e31a227e1cd0872e314474534e167b9aa5ba9
+
 Package: ncdu2
 Architecture: aarch64
 Installed-Size: 1080
@@ -296,6 +535,35 @@ Size: 387688
 MD5sum: b406c6dc560f481ef6d8cdfafa0cdb6a
 SHA1: be4694b0397b52ecd5a7dcb92abfd51c2b905076
 SHA256: 81fd727159b79bc7c1e3fa30de5a78b1fd1ad0a8479f2c17cd7c7f13f3555b74
+
+Package: ncpamixer
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 1.3.11-1
+Homepage: https://github.com/fulhax/ncpamixer
+Depends: libc++, ncurses-ui-libs, pulseaudio
+Description: An ncurses mixer for PulseAudio
+Filename: ./ncpamixer_1.3.11-1_aarch64.deb
+Size: 41916
+MD5sum: ec2ad49a95b83db1ea0171a1853a4f6f
+SHA1: 615a2920b86b1e1afe370cf1fafc2ab18b5c1e1d
+SHA256: bdafc08480536470ba817fe5c5e0251eb2113c382e384aa16f959a85efbb54e4
+
+Package: ncspot
+Architecture: aarch64
+Installed-Size: 9508
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://github.com/hrkfdn/ncspot
+Depends: dbus, openssl, pulseaudio
+Conflicts: ncspot-mpris
+Description: An ncurses Spotify client written in Rust
+Filename: ./ncspot_1.5.1-1_aarch64.deb
+Size: 2932104
+MD5sum: 73d79398c0cffc17f0378f80dc6b9ece
+SHA1: 2a7f2216eb573d4edd75ef18175da3c78694f63a
+SHA256: b800721027c74f40b42e58ed489e861f7f30077a502f04f3758041d5201aeda7
 
 Package: neovim-nightly
 Architecture: aarch64
@@ -312,6 +580,48 @@ Size: 6275444
 MD5sum: 79c7cab098b7153eea91630dbfe96ea6
 SHA1: 6bb3c8ded0ad6b2098bb3d55238072b66451d377
 SHA256: c894d4ba77b363d57efa68c842b72a1979dc2ba9969fca3331e779e1cd8085e1
+
+Package: notcurses-data
+Architecture: all
+Installed-Size: 6500
+Maintainer: @termux
+Version: 3.0.17-4
+Homepage: https://notcurses.com/
+Depends: notcurses (= 3.0.17-4)
+Description: Platform-independent data for notcurses
+Filename: ./notcurses-data_3.0.17-4_all.deb
+Size: 5903668
+MD5sum: 1705880928848bb9a78f162819a38c6c
+SHA1: 0baf2499903f0a012bd04aa1a664f625bf0c3002
+SHA256: 6cfe19aba447f6141619527cbc24cf88667f02f93d8bd10648363b6c41897515
+
+Package: notcurses-tools
+Architecture: aarch64
+Installed-Size: 1252
+Maintainer: @termux
+Version: 3.0.17-4
+Homepage: https://notcurses.com/
+Depends: notcurses-data, notcurses (= 3.0.17-4)
+Description: Tools and demos for notcurses
+Filename: ./notcurses-tools_3.0.17-4_aarch64.deb
+Size: 416656
+MD5sum: 7d18c87e1e58538db722dcf17ee4a6c4
+SHA1: 6877f74de962cc954e2621d12a8db27f3388103b
+SHA256: fe17851e2c89fd7027dc0bfed3121884e8db31bc071f8afcbe23141eb4058ddc
+
+Package: notcurses
+Architecture: aarch64
+Installed-Size: 1444
+Maintainer: @termux
+Version: 3.0.17-4
+Homepage: https://notcurses.com/
+Depends: ffmpeg, libandroid-spawn, libc++, libunistring, ncurses, zlib
+Description: blingful TUIs and character graphics
+Filename: ./notcurses_3.0.17-4_aarch64.deb
+Size: 318660
+MD5sum: 066a69ff28089e48ea0b0a8236e6b50b
+SHA1: 6eff1366f054977a872b6b7a7d50a7aaa46c3b13
+SHA256: e48961b4ea4bf892f2714d2fb7a5a2c6aef05cc22c43713243617d40ceb33a12
 
 Package: nss-utils
 Architecture: aarch64
@@ -562,6 +872,118 @@ MD5sum: de56e6fda6b307b10d56b5d3e6808207
 SHA1: 8465a34f8128f51fbc6324a3dc533ddc2c56cbaf
 SHA256: c7a6933a9977a4bad754a7dfcff97787707f22effefe9d37d2e7e02f6582b389
 
+Package: squeezelite
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 2.0.0.1612-1
+Homepage: https://ralph-irving.github.io/squeezelite.html
+Depends: libflac, libmad, libvorbis, libmpg123, pulseaudio
+Description: A small headless Logitech Squeezebox emulator
+Filename: ./squeezelite_2.0.0.1612-1_aarch64.deb
+Size: 34712
+MD5sum: 8359a13253ba34e74629662f58a571c9
+SHA1: 5d820618f47b5258255aa2eac4bab512158bb125
+SHA256: fe132458aaebc14190d1f6b93cfab65976b8876e1647eff6b5f2d7f9bf253e75
+
+Package: tizonia
+Architecture: aarch64
+Installed-Size: 9472
+Maintainer: @termux
+Version: 0.22.0-28
+Homepage: https://github.com/tizonia/
+Depends: boost, dbus, libandroid-wordexp, libc++, libcurl, libflac, liblog4c, libmad, libmediainfo, libmp3lame, liboggz, libopus, libsndfile, libsqlite, libuuid, libvpx, libmpg123, opusfile, pulseaudio, python, taglib
+Description: A command-line streaming music client/server for Linux
+Filename: ./tizonia_0.22.0-28_aarch64.deb
+Size: 1384812
+MD5sum: cf7dbc3bb04ac8d6512e41d733dc1de1
+SHA1: e53a3c529cdf934b8eab28bfb98c27adc9ff0c2f
+SHA256: 438f50154705fb72d38faaa1e64ac62dc925192053e15bb90349e2cbb2759610
+
+Package: tsduck-java
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: openjdk-21, libtsduck (= 3.45.4798-1)
+Description: Java bindings for TSDuck
+Filename: ./tsduck-java_3.45.4798-1_aarch64.deb
+Size: 10096
+MD5sum: 0db0eb36601f8da921d693a792d94686
+SHA1: b385fc1ee3885493db12e7a6815d3c34cd1c62b8
+SHA256: 49d824ecf7acc773820051ae1b417b5fd059d09ce025fba40019f96524669489
+
+Package: tsduck-plugins
+Architecture: aarch64
+Installed-Size: 7260
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: libtsduck (= 3.45.4798-1)
+Description: Plugins for TSDuck
+Filename: ./tsduck-plugins_3.45.4798-1_aarch64.deb
+Size: 856684
+MD5sum: 587d25e6f2ac96fac7c6fd350afd249e
+SHA1: 620926bc8bbb74511a61e5ec85ec6b68e4c0b27d
+SHA256: 81cb1601f43d8b22ce2551f99fcea231046a2f26b1d9948fa310ee018f661a23
+
+Package: tsduck-python
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: python, libtsduck (= 3.45.4798-1)
+Description: Python bindings for TSDuck
+Filename: ./tsduck-python_3.45.4798-1_aarch64.deb
+Size: 13404
+MD5sum: 021dba17a2d4bc460309cb81c63e8e56
+SHA1: f37924fa88733ce5101d0e8bdc35e9605e520e71
+SHA256: 547692d5fc9cd8638ce9dc144e1ba6b1704420a22a628559527c38a5c2ebbc88
+
+Package: tsduck-tools
+Architecture: aarch64
+Installed-Size: 2936
+Maintainer: @termux
+Version: 3.45.4798-1
+Homepage: https://tsduck.io/
+Depends: libtsduck (= 3.45.4798-1)
+Description: Command line tools for TSDuck
+Filename: ./tsduck-tools_3.45.4798-1_aarch64.deb
+Size: 380540
+MD5sum: 68b47153ea37c7fdda0258fb74bd6f08
+SHA1: 4d64dad82b3fb8d224e6fc07c7ee76910840f385
+SHA256: 014bc1c775a55adeb3b004b5363f680357f23bd70124d71f523f7edcf48baedc
+
+Package: twolame
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 0.4.0-2
+Homepage: https://www.twolame.org/
+Depends: libsndfile, libtwolame (= 0.4.0-2)
+Description: The frontend for libtwolame
+Filename: ./twolame_0.4.0-2_aarch64.deb
+Size: 11292
+MD5sum: 5191d9e81e50865bc7edf1271bf9631f
+SHA1: 9258ebbda31b5ae8b62927c81702642b6a47e42c
+SHA256: a23889aea6b31345a51522e5bb62670f42aa8baa54f6ac86b54d688ed2d614d9
+
+Package: unpaper
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1:7.0.0-6
+Homepage: https://www.flameeyes.com/projects/unpaper
+Depends: ffmpeg
+Description: A post-processing tool for scanned sheets of paper
+Filename: ./unpaper_1:7.0.0-6_aarch64.deb
+Size: 30604
+MD5sum: 38dd4f39d0fbf3bad41611348e25e0c7
+SHA1: 24a3c874ab0b7486e7fcfdf20dff1eacfe94047b
+SHA256: 253d2f6d537c862f86b934d6269365a088d04e04ba802642bbee85ce90747943
+
 Package: valgrind-static
 Architecture: aarch64
 Installed-Size: 33152
@@ -590,6 +1012,34 @@ Size: 2828724
 MD5sum: 543935497d1b3800b6db707e5c86c181
 SHA1: 1b3b0694709297c8cd5e49248c653d17ae161d4a
 SHA256: 14a986674a48a09b14d20d12064590d4ff3371fd01b09db688aa6e03b884cbc3
+
+Package: vamp-plugin-sdk-static
+Architecture: aarch64
+Installed-Size: 1072
+Maintainer: @termux
+Version: 2.10-4
+Homepage: https://www.vamp-plugins.org/
+Depends: vamp-plugin-sdk (= 2.10-4)
+Description: Static libraries for vamp-plugin-sdk
+Filename: ./vamp-plugin-sdk-static_2.10-4_aarch64.deb
+Size: 108964
+MD5sum: 0e7fb045712548e03097c304cd9f781b
+SHA1: c9caa7660df1316554c1f3d86ddb4079f93960e0
+SHA256: 1da3a496758544b0068d6ebfec04a9837e757a770ff31963cdd3ffbd7d082a0e
+
+Package: vamp-plugin-sdk
+Architecture: aarch64
+Installed-Size: 1004
+Maintainer: @termux
+Version: 2.10-4
+Homepage: https://www.vamp-plugins.org/
+Depends: libc++, libsndfile
+Description: An API for audio analysis and feature extraction plugins
+Filename: ./vamp-plugin-sdk_2.10-4_aarch64.deb
+Size: 159060
+MD5sum: 94b54596d9a2537cd82c0446a0d3b22f
+SHA1: d43f98ccdd85741f9fba995218829bad1f80fa6a
+SHA256: be8d83f349a7eb137b466c1149770b57a72ea8590c136cb23cc46c3a83354d03
 
 Package: vulkan-validation-layers
 Architecture: aarch64
