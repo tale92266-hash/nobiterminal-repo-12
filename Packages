@@ -637,6 +637,20 @@ MD5sum: bd5eff37aa36d806dfd2941dc3eaf2ae
 SHA1: 197184fbeca5f7e10aabd4dac370ada37a3720a2
 SHA256: 864148f587c1ce195575f2cc4f64a0ef1fa528d6a1c48990a8ad0bd4954e47fb
 
+Package: openjdk-25-x
+Architecture: aarch64
+Installed-Size: 14768
+Maintainer: @termux
+Version: 25.0.5.1-1
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-25 (= 25.0.5.1-1)
+Description: Portion of openjdk-25 requiring X11 functionality
+Filename: ./openjdk-25-x_25.0.5.1-1_aarch64.deb
+Size: 12704484
+MD5sum: 5d0abe5ffdd05f11b8852c518ca5ca85
+SHA1: 7895fdf78cc942fa227ecf35383058c08ed3d1b6
+SHA256: 4740db4fc1f71b47ae5d68761c7d19793daafce673abc29ada2407b17dac8667
+
 Package: openlist
 Architecture: aarch64
 Installed-Size: 169196
