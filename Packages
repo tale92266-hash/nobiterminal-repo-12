@@ -26,6 +26,20 @@ MD5sum: 9accb40336329f0309930a70a9914eaa
 SHA1: 5c2cdde43c5794d95922b2afe6edc71af27d18c7
 SHA256: d57abf3bfe106a4bffee00baabf1933efc362ef364559227dd9250ca66fcbbec
 
+Package: ani-cli
+Architecture: all
+Installed-Size: 96
+Maintainer: @termux
+Version: 5.1-2
+Homepage: https://github.com/pystardust/ani-cli
+Depends: aria2, ffmpeg, fzf, grep, sed, wget
+Description: A cli to browse and watch anime
+Filename: ./ani-cli_5.1-2_all.deb
+Size: 9792
+MD5sum: 3712a5c3adcac90d8f5f5b873f8398df
+SHA1: 9ca28c393de3b97cf703d14cde3eef17e8f9e4ef
+SHA256: fc668341f75a0724955ce54f572ddce5b2d06837f8fb1c6d852c7ad26751093b
+
 Package: aubio-static
 Architecture: aarch64
 Installed-Size: 1040
@@ -665,6 +679,20 @@ MD5sum: 5b80aaca97648304ce5ed7d73d57f405
 SHA1: 8751dbdfeb87ea055b42141adeb9db98489cdcb1
 SHA256: cd8d429aaf4109e213b7ea97251280580e02647893d9d0c4662f4fb7f79966bd
 
+Package: mpdscribble
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: Henrik Grimler @Grimler91
+Version: 0.26-3
+Homepage: https://www.musicpd.org/clients/mpdscribble/
+Depends: fmt, libc++, libcurl, libgcrypt, mpd, libmpdclient
+Description: A Music Player Daemon (MPD) client which submits information about tracks being played to a scrobbler
+Filename: ./mpdscribble_0.26-3_aarch64.deb
+Size: 71440
+MD5sum: 202b6513c68aab4b23aff3e744faa79e
+SHA1: 5e6807acc222c4a522ac082bb2c70f1607596a6b
+SHA256: 9e78144dd16e56f7a256b5b17a8086565b23de70fe2aefce3a0b1ecadc558b2e
+
 Package: mplayer
 Architecture: aarch64
 Installed-Size: 4440
@@ -868,6 +896,20 @@ Size: 96892
 MD5sum: 64e5c23be3b26c55ca515086904e1b23
 SHA1: bacf837c22b04bfb711fcfc804de6e10fb37d18a
 SHA256: f454144f70d6072cc4e6d50dca2f5c84ac7a92f22c6c021184c7dc13d528ef5a
+
+Package: pianobar
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 2024.12.21-4
+Homepage: https://6xq.net/pianobar/
+Depends: libao, ffmpeg, libgcrypt, libcurl, json-c
+Description: pianobar is a free/open-source, console-based client for the personalized online radio Pandora.
+Filename: ./pianobar_2024.12.21-4_aarch64.deb
+Size: 38748
+MD5sum: 6f2fccf4524fe961bade873b0ef34c78
+SHA1: 581774e5da52c0ef4d8c35bbbe313591ddf63a14
+SHA256: e09e8fb6196d920aae5038abf4151b3cb40aff9c1b8cce7d5219744997020f41
 
 Package: pipetto-crypto-vulkan-icd-wrapper
 Architecture: aarch64
@@ -1312,6 +1354,20 @@ Size: 846208
 MD5sum: fa9e72c035772bc33957549c94e9ab09
 SHA1: 899cdbe6a4164ea19c752b259b333373af48aca5
 SHA256: cc1510087034e18c30b207402d0f348001ec9f1acc65438fb9171da50a1fcaae
+
+Package: vlc
+Architecture: aarch64
+Installed-Size: 12172
+Maintainer: @termux
+Version: 3.0.24-2
+Homepage: https://www.videolan.org/
+Depends: libchromaprint, dbus, ffmpeg, fluidsynth, fontconfig, freetype, fribidi, glib, gst-plugins-base, gstreamer, harfbuzz, liba52, libandroid-shmem, libandroid-spawn, libaom, libarchive, libass, libbluray, libc++, libcaca, libcairo, libcddb, libdav1d, libdvbpsi, libdvdnav, libdvdread, libebml, libflac, libgcrypt, libgnutls, libgpg-error, libiconv, libidn, libjpeg-turbo, lua52, libmad, libmatroska, libmpeg2, libnfs, libogg, libopus, libpng, librist, librsvg, libsecret, libsoxr, libssh2, libtheora, libtwolame, libvorbis, libvpx, libx11, libx264, libx265, libxcb, libxml2, libmpg123, ncurses, opengl, pulseaudio, samba, taglib, zlib
+Description: A popular libre and open source media player and multimedia engine
+Filename: ./vlc_3.0.24-2_aarch64.deb
+Size: 2633296
+MD5sum: 429b73e8ae19fff9d26a0ec1a39c0806
+SHA1: 62c572c1a12c7f5c00bf45acf83e0dcdb09f099d
+SHA256: 3d287de7d4a481d5ca2672fd54db68a5a1abf5675e3f618fee33f5ad28c44411
 
 Package: vulkan-validation-layers
 Architecture: aarch64
