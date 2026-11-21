@@ -82,6 +82,20 @@ MD5sum: 483c47c524a616517867159e6641ba25
 SHA1: 640760a73ae6f0aabbf4c384e2e73e43c57a6236
 SHA256: df9b63d17454f01f8a42dcae6298c4edfb1c2e254d6bdc3f5d4b23734ea968d1
 
+Package: cmus
+Architecture: aarch64
+Installed-Size: 796
+Maintainer: @termux
+Version: 2.13.0-1
+Homepage: https://cmus.github.io/
+Depends: ffmpeg, libandroid-support, libflac, libiconv, libmad, libmodplug, libvorbis, libwavpack, ncurses, opusfile, pulseaudio, alsa-lib
+Description: Small, fast and powerful console music player
+Filename: ./cmus_2.13.0-1_aarch64.deb
+Size: 201016
+MD5sum: 313dbbd22043ed5253a425fc990ee078
+SHA1: 4cc75715a503dfd40e2d5595c4f69633c16844d2
+SHA256: 548b4c66363f5ed13efd4cd0a17a71cdd31c0fe39853201e5839b525b14778a8
+
 Package: command-not-found
 Architecture: aarch64
 Installed-Size: 728
@@ -95,6 +109,20 @@ Size: 119420
 MD5sum: 3c5c6463d6173f4ec7559bbc8600576a
 SHA1: 50eb398db7139f361906c16857c444ec083efd53
 SHA256: 18bf0eb6cdaf58d4b1c9dcffd8acd55ca157194278239c4267ae426e9e44d127
+
+Package: dcmtk
+Architecture: aarch64
+Installed-Size: 59912
+Maintainer: @termux
+Version: 3.7.1-1
+Homepage: https://dicom.offis.de/dcmtk
+Depends: libc++, libiconv, libpng, libtiff, libxml2, openssl, zlib
+Description: A collection of libraries and applications implementing large parts the DICOM standard
+Filename: ./dcmtk_3.7.1-1_aarch64.deb
+Size: 7405428
+MD5sum: 4455fc7fe5300547d4bdff9e0e48e555
+SHA1: 838fec24de71aa84dc901e6ce512d248342c836d
+SHA256: 7cf9029e266903fcb7cd364f782d44c5ea5a2307a3c0bf0b29c9fa33ea7a5b53
 
 Package: dumbpipe
 Architecture: aarch64
@@ -127,6 +155,20 @@ MD5sum: 9a565635b2aa3d8adbf85f217f55220d
 SHA1: 069f66eea6ff4e90a1f23d407fe7226e0eab9b05
 SHA256: c9b595113acca8edbbc11fa0913b170ff87d9d37d050487ae37a74f735e77ee0
 
+Package: ffmpegthumbnailer
+Architecture: aarch64
+Installed-Size: 396
+Maintainer: @termux
+Version: 2.4.2-1
+Homepage: https://github.com/dirkvdb/ffmpegthumbnailer
+Depends: ffmpeg, libc++, libjpeg-turbo, libpng
+Description: Lightweight video thumbnailer that can be used by file managers
+Filename: ./ffmpegthumbnailer_2.4.2-1_aarch64.deb
+Size: 81332
+MD5sum: 73981d7a17efb0e884d1a3d8c3a787a9
+SHA1: 0b4beab89b26a1e4e61d54ac05859009b91e4215
+SHA256: e1354382f55c271644355c155d6a1128015982e3817d96ffc51f45c0cdd312aa
+
 Package: fluidsynth
 Architecture: aarch64
 Installed-Size: 1784
@@ -140,6 +182,22 @@ Size: 505456
 MD5sum: 7fdf7db2b69b04f7b51716db84f5c413
 SHA1: 8a654378393c83efd3ee6ed479ee1c8932d4f6aa
 SHA256: 0d14802d634d0d8f554e28bbf32aed37845a3ee725a8b4b95a970ed9f209d270
+
+Package: gegl
+Architecture: aarch64
+Installed-Size: 5376
+Maintainer: @termux
+Version: 0.4.72-5
+Homepage: https://gegl.org/
+Breaks: gegl-dev
+Depends: babl, ffmpeg, gdk-pixbuf, glib, imath, json-glib, libandroid-support, libc++, libcairo, libjasper, libjpeg-turbo, libpng, libraw, librsvg, libtiff, libwebp, littlecms, openexr, pango, poppler
+Replaces: gegl-dev
+Description: Data flow based image processing framework
+Filename: ./gegl_0.4.72-5_aarch64.deb
+Size: 1276408
+MD5sum: baec7a09930c4f9c2a24a8ff4b86b0b9
+SHA1: d5d2276add2b62e71d29a0bcf2d0f5f0147118c1
+SHA256: 372b3a9c166c82e99598ab9d3316eab4cb8d4520c7bb55b11f51c756f375cd69
 
 Package: git-delta
 Architecture: aarch64
@@ -168,6 +226,78 @@ Size: 2800356
 MD5sum: 7b51f5874506afb5c50c5ffc596bcf3d
 SHA1: 48ee4ec140bc89af5eaac57ebe7237063d0ed7d4
 SHA256: 9dc46c036db6a387310d8a73b77a0e8dad6b87b57ce1a5b11753c82fa0638388
+
+Package: gpac-static
+Architecture: aarch64
+Installed-Size: 14728
+Maintainer: @termux
+Version: 26.07.0-2
+Homepage: https://gpac.wp.imt.fr/
+Depends: gpac (= 26.07.0-2)
+Description: Static libraries for gpac
+Filename: ./gpac-static_26.07.0-2_aarch64.deb
+Size: 3268888
+MD5sum: 6aabc6182a0b60fda1e93a8d90b09916
+SHA1: b29488b27a27c3b722ca2ba2dd15a92830a84083
+SHA256: 1024d56d4192fe08a4a38f3b8c82a6feb5b1b1f994b5bdfb49f96862cfcfbe0d
+
+Package: gpac
+Architecture: aarch64
+Installed-Size: 15128
+Maintainer: @termux
+Version: 26.07.0-2
+Homepage: https://gpac.wp.imt.fr/
+Depends: ffmpeg, freetype, liba52, libjpeg-turbo, liblzma, libmad, libnghttp2, libogg, libpng, libtheora, libvorbis, openjpeg, openssl, pulseaudio, xvidcore, zlib
+Description: An open-source multimedia framework focused on modularity and standards compliance
+Filename: ./gpac_26.07.0-2_aarch64.deb
+Size: 4585064
+MD5sum: 3c4de02408d1e2f97ba1bb8d82f6e940
+SHA1: 1ba12d5a02422d7b1b94d8b432c1a8622ee415e0
+SHA256: 8eb08fa4106ed6582c700ae120bd5444c95ea24926d1a966542e55b177a6524d
+
+Package: gst-libav
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 1.28.9-1
+Homepage: https://gstreamer.freedesktop.org/modules/gst-libav.html
+Depends: ffmpeg, glib, gst-plugins-base, gstreamer
+Description: GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code
+Filename: ./gst-libav_1.28.9-1_aarch64.deb
+Size: 78152
+MD5sum: 8220b554bed3581e345780e5228eeda3
+SHA1: 9c4a7fb092dff310a0bd956455d16cfc0af46227
+SHA256: cade21ddaa6b885be2807e1550b1626156eec840426ed7ae19cd4fea0ad46978
+
+Package: gst-plugins-bad
+Architecture: aarch64
+Installed-Size: 8740
+Maintainer: @termux
+Version: 1.28.9-1
+Homepage: https://gstreamer.freedesktop.org/
+Breaks: gst-plugins-bad-dev
+Depends: game-music-emu, glib, gst-plugins-base, gstreamer, libaom, libass, libbz2, libcairo, libcurl, libopus, librsvg, libsndfile, libsrt, libsrtp, libx11, libxml2, littlecms, openal-soft, openh264, openjpeg, openssl, pango
+Replaces: gst-plugins-bad-dev
+Description: GStreamer Bad Plug-ins
+Filename: ./gst-plugins-bad_1.28.9-1_aarch64.deb
+Size: 2104964
+MD5sum: 979e2b5c2e0f46bfc1ebe2cbd12298d5
+SHA1: c24c9b98c23ea1d84793bc164b898b284ec2af58
+SHA256: b6052d7988b1034ec11b2aa69ab923553e13e595323e29b533ecc740acbed7a0
+
+Package: gst-plugins-good
+Architecture: aarch64
+Installed-Size: 5336
+Maintainer: @termux
+Version: 1.28.9-1
+Homepage: https://gstreamer.freedesktop.org/
+Depends: glib, gst-plugins-base, gstreamer, libandroid-shmem, libbz2, libcaca, libflac, libjpeg-turbo, libmp3lame, libnettle, libpng, libvpx, libx11, libxext, libxfixes, libxml2, libmpg123, pulseaudio, zlib
+Description: GStreamer Good Plug-ins
+Filename: ./gst-plugins-good_1.28.9-1_aarch64.deb
+Size: 1524580
+MD5sum: d46814478ca5aff2767274a28feeeef1
+SHA1: c2138ea7b5460fa81f828b931775e7600522a97e
+SHA256: d4941e35945bf2c419abc4d06a3373f453c9131c146dd3ac6167cb5fd7090481
 
 Package: ladspa-sdk
 Architecture: aarch64
@@ -548,6 +678,20 @@ Size: 850592
 MD5sum: 5ae427388cedb6eb452563839b230808
 SHA1: 8b0519d83fbb9f1540894e591d9f0630cee1882d
 SHA256: 57f15aeb843c3b043d479ea96d759ca0ea147fdfb87a70f13ed44e00a75fb428
+
+Package: mpv
+Architecture: aarch64
+Installed-Size: 5508
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.42.0-1
+Homepage: https://mpv.io/
+Depends: alsa-lib, ffmpeg, jack, libandroid-glob, libandroid-support, libarchive, libass, libcaca, libcurl, libiconv, libplacebo, libsixel, libuchardet, luajit, openal-soft, pulseaudio, rubberband, zlib
+Description: Command-line media player
+Filename: ./mpv_0.42.0-1_aarch64.deb
+Size: 1142920
+MD5sum: 643f9683fba2be56916f8badf7dacbfa
+SHA1: e69ece9b8c5608117743303c4b4d0ab7895a8207
+SHA256: 83b63ddbaa2fdcaacf6d0e8c4f2b7ffcb2ff811d86cdde7376dc15c57c59a0cd
 
 Package: navidrome
 Architecture: aarch64
@@ -985,6 +1129,20 @@ Size: 34712
 MD5sum: 8359a13253ba34e74629662f58a571c9
 SHA1: 5d820618f47b5258255aa2eac4bab512158bb125
 SHA256: fe132458aaebc14190d1f6b93cfab65976b8876e1647eff6b5f2d7f9bf253e75
+
+Package: timg
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 1.6.3-6
+Homepage: https://timg.sh/
+Depends: ffmpeg, graphicsmagick, libc++, libcairo, libdeflate, libjpeg-turbo, libexif, librsvg, libsixel, poppler, zlib
+Description: A terminal image and video viewer
+Filename: ./timg_1.6.3-6_aarch64.deb
+Size: 93296
+MD5sum: 6de9063d59ace055d6debd80a7637395
+SHA1: 0bbb9e49e0771ff6feb7def05d2dccdf56ede265
+SHA256: b13275eec84ccf7ef978a2b607f931a4d622d345fc09df2187a4a947f3601528
 
 Package: tizonia
 Architecture: aarch64
