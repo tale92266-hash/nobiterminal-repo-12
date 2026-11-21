@@ -313,6 +313,20 @@ MD5sum: d46814478ca5aff2767274a28feeeef1
 SHA1: c2138ea7b5460fa81f828b931775e7600522a97e
 SHA256: d4941e35945bf2c419abc4d06a3373f453c9131c146dd3ac6167cb5fd7090481
 
+Package: jadx-x
+Architecture: all
+Installed-Size: 40
+Maintainer: @termux
+Version: 1.5.7-1
+Homepage: https://github.com/skylot/jadx
+Depends: openjdk-21-x, jadx (= 1.5.7-1)
+Description: Dex to Java decompiler GUI
+Filename: ./jadx-x_1.5.7-1_all.deb
+Size: 4708
+MD5sum: b0474c0a55e77c10decddcbbe1ad013a
+SHA1: 8dc80741e7673f0cf758c839c29221dbfcc8df38
+SHA256: cb011330de07a58799a2d44ea266f5c71b191f878c40d1b31e60f2bd5c841862
+
 Package: ladspa-sdk
 Architecture: aarch64
 Installed-Size: 156
@@ -412,6 +426,20 @@ Size: 48880
 MD5sum: 83fe32885d4fb908d9c9e2f5814eb547
 SHA1: 6c932751a06f249c120f0679fbf5dfa904c2fd09
 SHA256: a85866fad4e3b238c54a9013a1945fe4274c1b043cdb22544f0b0905490138e0
+
+Package: libcommons-lang3-java
+Architecture: all
+Installed-Size: 684
+Maintainer: @termux
+Version: 3.22.0-1
+Homepage: https://commons.apache.org/proper/commons-lang/
+Depends: openjdk-21
+Description: A host of helper utilities for the java.lang API
+Filename: ./libcommons-lang3-java_3.22.0-1_all.deb
+Size: 579424
+MD5sum: e2f79134d0d91fe6cbf54870560df58a
+SHA1: b475cc14659fb8d22786ee7651603aaa46a63e0e
+SHA256: 1654e09bcaf605bc213a83611f23482104123efebdcd84c06b7e22939a6cf49b
 
 Package: libexempi-static
 Architecture: aarch64
@@ -636,6 +664,35 @@ Size: 62180
 MD5sum: f0c6ec1fb1822555af525346ff68f5ab
 SHA1: f1208d8bbaa6fe1e7992924cfcdacb73a3e962fa
 SHA256: 40e893967f3fc77cde3bb156841e76fd7295846c67ec602bfed26b1f9e8292dd
+
+Package: manim
+Architecture: aarch64
+Installed-Size: 3364
+Maintainer: Nguyen Khanh @nguynkhn
+Version: 0.22.1-1
+Homepage: https://manim.community
+Depends: cmake, ffmpeg, libcairo, pango, xorgproto, python-manimpango, python-numpy, python-pillow, python-pip, pycairo, python-scipy, python-skia-pathops
+Suggests: texlive-installer
+Description: A community-maintained Python framework for creating mathematical animations
+Filename: ./manim_0.22.1-1_aarch64.deb
+Size: 454336
+MD5sum: eede4548de1115b1942b5f2c9858148d
+SHA1: cb7231d1080f2f53705ed59d369742a199c8e837
+SHA256: 06195e8c790ba3a9b02b9847978bd3f316eecd34baf6798a4823364d7dbfe2fb
+
+Package: megacmd
+Architecture: aarch64
+Installed-Size: 10528
+Maintainer: @termux
+Version: 2.7.1-1
+Homepage: https://mega.io/
+Depends: c-ares, cryptopp, dbus, ffmpeg, freeimage, libandroid-glob, libc++, libcurl, libicu, libsodium, libsqlite, libuv, mediainfo, openssl, pcre2, readline, zlib
+Description: Provides non UI access to MEGA services
+Filename: ./megacmd_2.7.1-1_aarch64.deb
+Size: 2773972
+MD5sum: 2e8d2d406aa194f909e6658955ab0d7c
+SHA1: 822e27d915ffd3c57a969bdaa4b28a55a9dcdd56
+SHA256: ed2a3bbc2639b0012e0559c054debc486268ec4a58952d496adcf2c3a2a4a30c
 
 Package: minidlna
 Architecture: aarch64
@@ -939,6 +996,21 @@ MD5sum: ce47bdcbda7e99119c2210b7349b53da
 SHA1: f4784281b74569f3498303bde64618f92a625ec7
 SHA256: 507b14505484aa24f400496345b6f58eda071681c9576fc1adfeefb279849936
 
+Package: plantuml
+Architecture: all
+Installed-Size: 27428
+Maintainer: @termux
+Version: 1.2026.10-1
+Homepage: https://plantuml.com/
+Depends: openjdk-21
+Recommends: graphviz
+Description: Draws UML diagrams, using a simple and human readable text description
+Filename: ./plantuml_1.2026.10-1_all.deb
+Size: 26529908
+MD5sum: afdb42548101bdd98386b96b33433061
+SHA1: 040550752cffaae4614d8de9d103ef7c39f15f7f
+SHA256: cf34755a0a891700d8dd70fe368c3b36256c451acd24f4972ad3ced5968fe5e9
+
 Package: powershell
 Architecture: aarch64
 Installed-Size: 85400
@@ -952,6 +1024,20 @@ Size: 17038472
 MD5sum: ada7c827fb18508d991aea658fbdc1f4
 SHA1: 4003bba4f1d478751b0924fb007413aeb205be0b
 SHA256: e4aba1ba8a3dc40551843689e1c6d752e02c394d16bbfc1bac58a5ba4208a65f
+
+Package: procyon-decompiler
+Architecture: all
+Installed-Size: 2028
+Maintainer: @termux
+Version: 0.6.0-3
+Homepage: https://github.com/mstrobel/procyon
+Depends: openjdk-21
+Description: A standalone front-end for the Java decompiler in Procyon Compiler Toolset
+Filename: ./procyon-decompiler_0.6.0-3_all.deb
+Size: 1848020
+MD5sum: 399bc25ce062dab42451c23b4145c774
+SHA1: fd3a051410a0015aad89b6751bc657905e6c419a
+SHA256: 285b2b63d12da541d2ff29bb0d7bd7f8f56dc115615923f8e037e043bf7c0492
 
 Package: psl-native-test
 Architecture: aarch64
@@ -1199,6 +1285,20 @@ Size: 1384812
 MD5sum: cf7dbc3bb04ac8d6512e41d733dc1de1
 SHA1: e53a3c529cdf934b8eab28bfb98c27adc9ff0c2f
 SHA256: 438f50154705fb72d38faaa1e64ac62dc925192053e15bb90349e2cbb2759610
+
+Package: tomcat
+Architecture: all
+Installed-Size: 20016
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 11.0.29-1
+Homepage: https://tomcat.apache.org/
+Depends: openjdk-21
+Description: Open source implementation of the Jakarta Servlet, Pages and WebSocket technologies
+Filename: ./tomcat_11.0.29-1_all.deb
+Size: 13065780
+MD5sum: e6b1da1c94c388d8a37da902a84e30dd
+SHA1: f0797634588697850f7373fda13feea8fe725736
+SHA256: 43f9b7879b676ea1a7894b3d0f65fb6b44c3ff691b6248350edfb17decfb2333
 
 Package: tsduck-java
 Architecture: aarch64
