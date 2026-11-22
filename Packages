@@ -152,6 +152,19 @@ MD5sum: fdb209367fb73ed975664c6df2af31a5
 SHA1: a7c4ea27dad2d535edee9e39f75ab02667711dce
 SHA256: ca38889b8e9cc7795de237dcad9a0670e1058d2a2d3199d7ac55733dce3c39da
 
+Package: fastfetch
+Architecture: aarch64
+Installed-Size: 3696
+Maintainer: @termux
+Version: 2.71.0-1
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: A maintained, feature-rich and performance oriented, neofetch like system information tool
+Filename: ./fastfetch_2.71.0-1_aarch64.deb
+Size: 652024
+MD5sum: 1f017f7aeb32e339be97f0a4acd1cb12
+SHA1: 2894e67d510561e091002f1e8949643c3a30b5b1
+SHA256: 90d2dabb10b015e3bf9d3d91fee2be44115521d3e48e6621b417460c70671605
+
 Package: ffmpeg
 Architecture: aarch64
 Installed-Size: 37300
