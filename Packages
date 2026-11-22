@@ -708,6 +708,99 @@ MD5sum: 2e8d2d406aa194f909e6658955ab0d7c
 SHA1: 822e27d915ffd3c57a969bdaa4b28a55a9dcdd56
 SHA256: ed2a3bbc2639b0012e0559c054debc486268ec4a58952d496adcf2c3a2a4a30c
 
+Package: mesa-dev
+Architecture: all
+Installed-Size: 168
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Depends: libglvnd-dev
+Breaks: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Replaces: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Description: Mesa's OpenGL headers
+Filename: ./mesa-dev_26.3.1-1_all.deb
+Size: 25360
+MD5sum: 5f230f300382cec478b38949b92eca79
+SHA1: dc4a7020bc6942b0669aefe04e1a4f1c756e902a
+SHA256: d84a7c8013880b5a7fc168c89b3437bd30e71a877f4e2c64260e445775f39e3e
+
+Package: mesa-opencl-icd-rusticl
+Architecture: aarch64
+Installed-Size: 20332
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Depends: clang (<< 22), libandroid-shmem, libc++, libclc, libdrm, libllvm (<< 22), zlib, zstd
+Description: Mesa's Rusticl OpenCL ICD
+Filename: ./mesa-opencl-icd-rusticl_26.3.1-1_aarch64.deb
+Size: 3371100
+MD5sum: ae5e81d0f8331425b14c0342787dd56f
+SHA1: 687ab23055322bf5b56e993dac08d2cfe35e0def
+SHA256: 05f8779665173e114d1cba45f540bfa002dd59b75bad65ac54ce26c6703016e3
+
+Package: mesa-vulkan-icd-freedreno
+Architecture: aarch64
+Installed-Size: 13220
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, vulkan-loader-generic, zlib, zstd
+Breaks: mesa-vulkan-icd-freedreno-dri3
+Replaces: mesa-vulkan-icd-freedreno-dri3
+Provides: mesa-vulkan-icd-freedreno-dri3
+Description: Mesa's Freedreno Vulkan ICD
+Filename: ./mesa-vulkan-icd-freedreno_26.3.1-1_aarch64.deb
+Size: 1629416
+MD5sum: fa32332e274eec65321cd02500b9d76d
+SHA1: 97bc1539342b2cea54f69096f0cb5a4b3abe0ec4
+SHA256: fb794bdbcbdcbf7a3163cfb21003d934cecb8cbcabfa5d264cda72760b67bccf
+
+Package: mesa-vulkan-icd-swrast
+Architecture: aarch64
+Installed-Size: 12456
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libc++, libdrm, libllvm (<< 22), libx11, libxcb, libxshmfence, libwayland, ncurses, vulkan-loader-generic, zlib, zstd
+Description: Mesa's Swrast Vulkan ICD
+Filename: ./mesa-vulkan-icd-swrast_26.3.1-1_aarch64.deb
+Size: 1632792
+MD5sum: 4eb0babb62731efc694c53100654ba92
+SHA1: de2e5f13a68f22f9a365bf9998a82a969f4d428c
+SHA256: 2dee00164d8d41de068dbff77c66ae97528e8ba7a1dcccddbb4015aac94ef3f8
+
+Package: mesa-vulkan-icd-virtio
+Architecture: aarch64
+Installed-Size: 1408
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, zlib, zstd, libdrm, libxcb, libx11, libxshmfence, libwayland
+Description: Mesa's VirtIO Vulkan ICD
+Filename: ./mesa-vulkan-icd-virtio_26.3.1-1_aarch64.deb
+Size: 381612
+MD5sum: c2df345501f9a6f75b463e309bf7280c
+SHA1: 6a9e4cee52832c4c67893465bf52c39732cebf9f
+SHA256: db543a5057d230f756131fab377f25c59927f1e965d140a3501a47d5b1b38d6e
+
+Package: mesa
+Architecture: aarch64
+Installed-Size: 18052
+Maintainer: @termux
+Version: 26.3.1-1
+Homepage: https://www.mesa3d.org
+Breaks: osmesa, osmesa-demos
+Depends: libandroid-shmem, libc++, libdrm, libglvnd, libllvm (<< 22), libwayland, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, zlib, zstd
+Conflicts: libmesa, ndk-sysroot (<= 25b), osmesa
+Replaces: libmesa, osmesa
+Suggests: mesa-dev
+Description: An open-source implementation of the OpenGL specification
+Filename: ./mesa_26.3.1-1_aarch64.deb
+Size: 3176864
+MD5sum: aa01286f90099c6873e98101f73f3700
+SHA1: 18b8011354b27cebd224e41e1f041b517b399906
+SHA256: c40c83607910a57948636dea254868c06a8b0d4429871bb60f563ec7f3721dd4
+
 Package: minidlna
 Architecture: aarch64
 Installed-Size: 352
