@@ -1122,6 +1122,34 @@ MD5sum: af44415315e99cec74651f14621f6454
 SHA1: 5479cc696496b05a72b33c730511b7faac631470
 SHA256: 0818b8ad7657a9fac1bd1655f86c0d55562442a85b7ec1c780f25ca532275510
 
+Package: python-torchcodec
+Architecture: aarch64
+Installed-Size: 3216
+Maintainer: @termux
+Version: 0.17.0-4
+Homepage: https://github.com/pytorch/torchcodec
+Depends: ffmpeg, fmt, google-glog, libc++, libavif, libheif, libjpeg-turbo, libpng, libwebp, python, python-pip, python-torch, zlib
+Description: PyTorch media decoding and encoding
+Filename: ./python-torchcodec_0.17.0-4_aarch64.deb
+Size: 579892
+MD5sum: 5b5098a1b7cbc3b1d28a751bbd62977d
+SHA1: 450519e22d5fbd3677c95368c4eb91acb821ee68
+SHA256: c272441a199777f13f83a4664063690f487099116c7224cb9295d5712e71a1b5
+
+Package: python-torchvision
+Architecture: aarch64
+Installed-Size: 3332
+Maintainer: @termux
+Version: 0.29.2-2
+Homepage: https://github.com/pytorch/vision
+Depends: libc++, ffmpeg, python, python-numpy, python-pillow, python-pip, python-torch, libjpeg-turbo, libpng, libwebp, zlib
+Description: Datasets, Transforms and Models specific to Computer Vision
+Filename: ./python-torchvision_0.29.2-2_aarch64.deb
+Size: 449248
+MD5sum: a6d8c0139598d7b741806a24a1bde3f1
+SHA1: 5f68742deb88cc1043897bcf257af34c0686389f
+SHA256: 544350df6e112304ee176ac52f9c31743a6b59452380e6f81f771084546a958c
+
 Package: qrsspig
 Architecture: aarch64
 Installed-Size: 1184
