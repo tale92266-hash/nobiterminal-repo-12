@@ -1563,6 +1563,33 @@ MD5sum: 6de9063d59ace055d6debd80a7637395
 SHA1: 0bbb9e49e0771ff6feb7def05d2dccdf56ede265
 SHA256: b13275eec84ccf7ef978a2b607f931a4d622d345fc09df2187a4a947f3601528
 
+Package: tinygo-common
+Architecture: all
+Installed-Size: 1075300
+Maintainer: @termux
+Version: 0.44.0-1
+Homepage: https://tinygo.org
+Description: TinyGo common files
+Filename: ./tinygo-common_0.44.0-1_all.deb
+Size: 25189312
+MD5sum: cab5828461fbf7fb55c614d65bc8aea2
+SHA1: fd74c8a3571890d0ad7e4c6c59aba2d0327dbfbe
+SHA256: a6c1e4e3569b43c8d7f61cb3aec959b1451d8fe91d5c5730ecfb72e91d2d63fa
+
+Package: tinygo
+Architecture: aarch64
+Installed-Size: 106244
+Maintainer: @termux
+Version: 0.44.0-1
+Homepage: https://tinygo.org
+Depends: binaryen, golang, libc++, tinygo-common
+Description: Go compiler for microcontrollers, WASM, CLI tools
+Filename: ./tinygo_0.44.0-1_aarch64.deb
+Size: 24866540
+MD5sum: c1bb691ec955199d04c371f45de49fa0
+SHA1: 2308d6ebb14f3a175fe1b78009238e5fa8516292
+SHA256: 2e3569e128c5814e319413c643e9e790f7eba668415b24a3af856c81935bbd20
+
 Package: tizonia
 Architecture: aarch64
 Installed-Size: 9472
