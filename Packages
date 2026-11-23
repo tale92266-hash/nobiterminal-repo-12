@@ -1284,6 +1284,20 @@ MD5sum: d5b3fbc6d3cf7db4b06d5a6281c99dc4
 SHA1: 3659135e03aec0f43ed7988efb009d8877011f4e
 SHA256: b245b9cd16db095e7ef18b124f154e5111a9aefc4c268800db2f095534bcde42
 
+Package: radarr
+Architecture: aarch64
+Installed-Size: 48668
+Maintainer: @termux
+Version: 7.0.3.10918-1
+Homepage: https://radarr.video
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, libesqlite3, libcurl, ffmpeg
+Description: A PVR for Usenet and BitTorrent users (server)
+Filename: ./radarr_7.0.3.10918-1_aarch64.deb
+Size: 12687464
+MD5sum: da9736fb760cad44669c4ff25b714b0c
+SHA1: 6d14f5ebacd157c276b58f2325a8d6b040ab585a
+SHA256: b943b697df4d0e8f886b4f1eaef15e03b75563fdf86851e1ca48c3acebd512f6
+
 Package: restic
 Architecture: aarch64
 Installed-Size: 52240
@@ -1432,6 +1446,20 @@ Size: 855668
 MD5sum: 55110d4d8ebb3d4bdf680605e0941551
 SHA1: bf9073b72fa805c236dc8b2e989a89cfc337622b
 SHA256: adeea03c9e96e330de3f39bf2747f1d4989fde4c166e6715444960bc3688f248
+
+Package: sonarr
+Architecture: aarch64
+Installed-Size: 49604
+Maintainer: @termux
+Version: 4.0.20.3014-3
+Homepage: https://sonarr.tv
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, mono, libesqlite3, libcurl, ffmpeg
+Description: A PVR for Usenet and BitTorrent users (server)
+Filename: ./sonarr_4.0.20.3014-3_aarch64.deb
+Size: 12954788
+MD5sum: 13d39ede67406563293826e38d7ef908
+SHA1: a4b13cdeb60ab79cfacd9731ed1dc0cd1b03ed16
+SHA256: 3a85e48190f9be82f7abdd3fd625b4da9d1c15766c6b341121a6946a5e034b8f
 
 Package: sox-static
 Architecture: aarch64
