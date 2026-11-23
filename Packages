@@ -623,6 +623,20 @@ MD5sum: 5b7838fd8693ef06915e3067f1998964
 SHA1: b929846c81d685465b32176c4ff79b0e995ece7d
 SHA256: d5b4778cb7c757aef028bfba5b9fcbcda29a376f2b163304766ddd83822d86c9
 
+Package: libsynctex
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Henrik Grimler @Grimler91
+Version: 1:2026.0-4
+Homepage: https://www.tug.org/texlive/
+Depends: zlib
+Description: Library for synchronization between TeX files and resulting file
+Filename: ./libsynctex_1:2026.0-4_aarch64.deb
+Size: 36444
+MD5sum: 76ddff0b1f3086d65d8d5769ae172f75
+SHA1: b5bff0e1c26d9f5b1467dffc91ad903ba61471ef
+SHA256: 6a2b9b9bcb8ffa67968aeffebe6b9f57e09cd8d9a65f1b58b39881220dca100f
+
 Package: libtsduck-static
 Architecture: aarch64
 Installed-Size: 48208
@@ -1503,6 +1517,37 @@ Size: 4534912
 MD5sum: a31d9efe335fdab7a3e67ffdf26333fd
 SHA1: 572e2db0c3563605c2f4721e7ef23aed1288e07b
 SHA256: c9e8e4eabc53e0819df7713bd6e24f2281dba77afb3a8a5b3fef7dd68374680a
+
+Package: texlive-bin-static
+Architecture: aarch64
+Installed-Size: 1828
+Maintainer: Henrik Grimler @Grimler91
+Version: 1:2026.0-4
+Homepage: https://www.tug.org/texlive/
+Depends: texlive-bin (= 1:2026.0-4)
+Description: Static libraries for texlive-bin
+Filename: ./texlive-bin-static_1:2026.0-4_aarch64.deb
+Size: 439956
+MD5sum: c0beed7a7b78c0a63191843da5b40895
+SHA1: 39a2cf5afed5d02da1d4e2b6e4a57adef49a62de
+SHA256: 39edab747f1d2dc86fb74c7b162c370996ff7d2b094bdbc9af1a4c84e88ba811
+
+Package: texlive-bin
+Architecture: aarch64
+Installed-Size: 53736
+Maintainer: Henrik Grimler @Grimler91
+Version: 1:2026.0-4
+Homepage: https://www.tug.org/texlive/
+Breaks: texlive (<< 20180414), texlive-bin-dev
+Depends: freetype, harfbuzz, harfbuzz-icu, libandroid-complex-math, libc++, libcairo, libgd, libgmp, libgraphite, libiconv, libicu, lua52, libmpfr, libpaper, libpixman, libpng, libsynctex (= 1:2026.0-4), teckit, zlib
+Recommends: texlive-installer
+Replaces: texlive (<< 20170524-3), texlive-bin-dev
+Description: TeX Live is a distribution of the TeX typesetting system. This package contains architecture dependent binaries.
+Filename: ./texlive-bin_1:2026.0-4_aarch64.deb
+Size: 10772704
+MD5sum: ae7b3d7083bbd8c04b6d91ccff72cf5b
+SHA1: 6a5efbe9d64aeaad78da89473f9f2cb894497bde
+SHA256: fd41b0f4a8758d771fcc079cd44fc1f083f803ba38b351a5272072c7d3fbcc7b
 
 Package: timg
 Architecture: aarch64
