@@ -1172,6 +1172,20 @@ MD5sum: 64e5c23be3b26c55ca515086904e1b23
 SHA1: bacf837c22b04bfb711fcfc804de6e10fb37d18a
 SHA256: f454144f70d6072cc4e6d50dca2f5c84ac7a92f22c6c021184c7dc13d528ef5a
 
+Package: opentofu
+Architecture: aarch64
+Installed-Size: 113432
+Maintainer: @termux
+Version: 1.13.10-1
+Homepage: https://opentofu.org/
+Suggests: git
+Description: Open source infrastructure as code tool
+Filename: ./opentofu_1.13.10-1_aarch64.deb
+Size: 20951992
+MD5sum: 2e5d905a2437f906d6f928f5b40b0358
+SHA1: 4357435b110f7c12b71dacc09fb424c695607b6c
+SHA256: cb7bdbb7533a3b2633b90b663e776e7189bde230ecb29861e3efd3fca324a5a9
+
 Package: pdftk
 Architecture: all
 Installed-Size: 1052
