@@ -382,6 +382,20 @@ MD5sum: 9fd1d3428625667eaffd8bab73e6840f
 SHA1: c79d457f33bf829c6a13a2145ef22a67b7ea9261
 SHA256: b3c44cfa98a4ef68687b70a5dc81ea0e48bd4af6453c6b920ae8abcd08c9f14a
 
+Package: jna
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: @CosmyBeyondStars
+Version: 5.19.1-1
+Homepage: https://github.com/java-native-access/jna
+Depends: openjdk-21, openjdk-21-x
+Description: Java Native Access
+Filename: ./jna_5.19.1-1_aarch64.deb
+Size: 230476
+MD5sum: b672596ecd641444fcbe14f4b4750bde
+SHA1: 4e14082fba27354929da9da33558ca7780b64762
+SHA256: 135c73499e7757f2ff48d411929345a06cc1580b76d7dffd67c1da9a1faf23c7
+
 Package: ladspa-sdk
 Architecture: aarch64
 Installed-Size: 156
@@ -495,6 +509,20 @@ Size: 579424
 MD5sum: e2f79134d0d91fe6cbf54870560df58a
 SHA1: b475cc14659fb8d22786ee7651603aaa46a63e0e
 SHA256: 1654e09bcaf605bc213a83611f23482104123efebdcd84c06b7e22939a6cf49b
+
+Package: libeatmydata
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 131-1
+Homepage: https://www.flamingspork.com/projects/libeatmydata/
+Depends: dash
+Description: libeatmydata - because fsync() should be a no-op
+Filename: ./libeatmydata_131-1_aarch64.deb
+Size: 15916
+MD5sum: b670d24dd1b665fcce75f04c2ad40f0f
+SHA1: ef5dfe89439ad57eeb7795ac530beef07b16e762
+SHA256: f1f3adc0cbbd23b8c91f5674f00ac110581a12c237548009ba4c25dbecdea67b
 
 Package: libexempi-static
 Architecture: aarch64
@@ -1353,6 +1381,19 @@ Size: 197192
 MD5sum: d5b3fbc6d3cf7db4b06d5a6281c99dc4
 SHA1: 3659135e03aec0f43ed7988efb009d8877011f4e
 SHA256: b245b9cd16db095e7ef18b124f154e5111a9aefc4c268800db2f095534bcde42
+
+Package: qrtool
+Architecture: aarch64
+Installed-Size: 3680
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 0.13.2-1
+Homepage: https://sorairolake.github.io/qrtool/
+Description: A command-line utility for encoding and decoding QR codes
+Filename: ./qrtool_0.13.2-1_aarch64.deb
+Size: 1299456
+MD5sum: 7ea612e5b66c0dc761d1b85e1e71b1b5
+SHA1: 4ca6b44d01a600ae5391d11d6a87a9f2370b2e32
+SHA256: 0f68cad562add2c6d0bba8f465a790cd809243c0ccc8bdf3951f826f33fcf731
 
 Package: radarr
 Architecture: aarch64
