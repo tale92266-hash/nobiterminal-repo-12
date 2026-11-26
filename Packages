@@ -326,6 +326,20 @@ MD5sum: d46814478ca5aff2767274a28feeeef1
 SHA1: c2138ea7b5460fa81f828b931775e7600522a97e
 SHA256: d4941e35945bf2c419abc4d06a3373f453c9131c146dd3ac6167cb5fd7090481
 
+Package: gst-python
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 1.28.9-1
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gst-plugins-base, gst-plugins-bad, gstreamer, pygobject, python
+Description: Python bindings for GStreamer
+Filename: ./gst-python_1.28.9-1_aarch64.deb
+Size: 27844
+MD5sum: dd51ae3af328742c37bfe3532db4e724
+SHA1: 899b5d1619046fb9aa463a6aaece7fa22d5bcf41
+SHA256: c111176f26510606b6d0afe4f6b1511c05e95b1d554406db0c702ffeb31cb659
+
 Package: jack-example-tools
 Architecture: aarch64
 Installed-Size: 608
@@ -353,6 +367,20 @@ Size: 4708
 MD5sum: b0474c0a55e77c10decddcbbe1ad013a
 SHA1: 8dc80741e7673f0cf758c839c29221dbfcc8df38
 SHA256: cb011330de07a58799a2d44ea266f5c71b191f878c40d1b31e60f2bd5c841862
+
+Package: jftui
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.7.7-1
+Homepage: https://github.com/Aanok/jftui
+Depends: libcurl, yajl, mpv
+Description: jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server.
+Filename: ./jftui_0.7.7-1_aarch64.deb
+Size: 45204
+MD5sum: 9fd1d3428625667eaffd8bab73e6840f
+SHA1: c79d457f33bf829c6a13a2145ef22a67b7ea9261
+SHA256: b3c44cfa98a4ef68687b70a5dc81ea0e48bd4af6453c6b920ae8abcd08c9f14a
 
 Package: ladspa-sdk
 Architecture: aarch64
@@ -691,6 +719,20 @@ Size: 60652
 MD5sum: bfecff45c2b8608e978ef967e4b34439
 SHA1: 8082222192197ff2ef171e720bdefb8b5c949b79
 SHA256: 9c8b7ab94a6cd1c6ab7e2345edc85c8d969b898976ca5be733ab73dbb6791e87
+
+Package: libvxl
+Architecture: aarch64
+Installed-Size: 29068
+Maintainer: @termux
+Version: 3.5.0-7
+Homepage: https://vxl.github.io
+Depends: dcmtk, libc++, libgeotiff, libjpeg-turbo, libpng, libtiff, zlib
+Description: A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding
+Filename: ./libvxl_3.5.0-7_aarch64.deb
+Size: 4590960
+MD5sum: 620519128046be6563fd90bcbb93958d
+SHA1: 5051c92c1d944a824799e925dfb679bcc141f4ac
+SHA256: e617efdebb6a5f48624fd6f5251b3e68e261a0a5b1e7b8e478cea7a75eee5119
 
 Package: lilv
 Architecture: aarch64
@@ -1102,6 +1144,20 @@ MD5sum: 64e5c23be3b26c55ca515086904e1b23
 SHA1: bacf837c22b04bfb711fcfc804de6e10fb37d18a
 SHA256: f454144f70d6072cc4e6d50dca2f5c84ac7a92f22c6c021184c7dc13d528ef5a
 
+Package: pdftk
+Architecture: all
+Installed-Size: 1052
+Maintainer: @termux
+Version: 3.3.3-4
+Homepage: https://gitlab.com/pdftk-java/pdftk
+Depends: libbcprov-java, libcommons-lang3-java, openjdk-21
+Description: A simple tool for doing everyday things with PDF documents
+Filename: ./pdftk_3.3.3-4_all.deb
+Size: 968092
+MD5sum: dcaec8299102e3c0cc203682a46d0d67
+SHA1: b67d05d9880e05452ce567674543a870cdfa82d3
+SHA256: 45f2518aec54babe8e859d6ca84e37fb0d46842afcd646805712dff690dcb2ca
+
 Package: pianobar
 Architecture: aarch64
 Installed-Size: 164
@@ -1241,6 +1297,20 @@ Size: 7996940
 MD5sum: af44415315e99cec74651f14621f6454
 SHA1: 5479cc696496b05a72b33c730511b7faac631470
 SHA256: 0818b8ad7657a9fac1bd1655f86c0d55562442a85b7ec1c780f25ca532275510
+
+Package: python-torchaudio
+Architecture: aarch64
+Installed-Size: 1604
+Maintainer: @termux
+Version: 2.11.1-1
+Homepage: https://github.com/pytorch/audio
+Depends: libc++, python, python-pip, python-torch, python-torchcodec
+Description: Data manipulation and transformation for audio signal processing, powered by PyTorch
+Filename: ./python-torchaudio_2.11.1-1_aarch64.deb
+Size: 216840
+MD5sum: de8c9a00eb475efa130b68f9e3ba8bb7
+SHA1: bc401ce861231928603a13d9c703ecc6a905ed98
+SHA256: 0fc508c9e36b1258b98209b0e1f8077922bd6eec1dd8597a400c298dd78d3efb
 
 Package: python-torchcodec
 Architecture: aarch64
@@ -1843,6 +1913,20 @@ Size: 5056276
 MD5sum: 29df3b394f89fdaa1382fd42e84d5bd3
 SHA1: a1028aecb0e8853aa62d8dd44eff707dcf87a933
 SHA256: 439f06f21040414fe3bc3730346faec3225dbf43f26a9e61a94b9d7804e1f6a7
+
+Package: ytui-music
+Architecture: aarch64
+Installed-Size: 2400
+Maintainer: @termux
+Version: 2.0.0-beta-6
+Homepage: https://github.com/sudipghimire533/ytui-music
+Depends: libsqlite, mpv, openssl, python-yt-dlp
+Description: Youtube client in terminal for music
+Filename: ./ytui-music_2.0.0-beta-6_aarch64.deb
+Size: 785332
+MD5sum: f4ba85f6546992fddefc1a8eb4bb93ae
+SHA1: fe837dc401fac82e814dd48542c9560bfd612360
+SHA256: 6b0ebc3cb639f937548ee464b2aa3305149b7b89e49a34ddc23fe7c72f4e54cc
 
 Package: zellij
 Architecture: aarch64
