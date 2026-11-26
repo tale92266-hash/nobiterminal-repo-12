@@ -109,6 +109,35 @@ MD5sum: 483c47c524a616517867159e6641ba25
 SHA1: 640760a73ae6f0aabbf4c384e2e73e43c57a6236
 SHA256: df9b63d17454f01f8a42dcae6298c4edfb1c2e254d6bdc3f5d4b23734ea968d1
 
+Package: cmake-curses-gui
+Architecture: aarch64
+Installed-Size: 10020
+Maintainer: @termux
+Version: 4.5.1-1
+Homepage: https://cmake.org/
+Depends: ncurses-ui-libs, cmake (= 4.5.1-1)
+Description: Curses based user interface for CMake (ccmake)
+Filename: ./cmake-curses-gui_4.5.1-1_aarch64.deb
+Size: 2620064
+MD5sum: 845699d20d3ac9656cb81d90c26cd7cc
+SHA1: 06f391040b4c97a6d890b4c0ade8d35014506e2d
+SHA256: 9f76a31368ad0e7722ea75389967e08e12694619cd50b850e6deca638e31dd90
+
+Package: cmake
+Architecture: aarch64
+Installed-Size: 58532
+Maintainer: @termux
+Version: 4.5.1-1
+Homepage: https://cmake.org/
+Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
+Recommends: clang, make
+Description: Family of tools designed to build, test and package software
+Filename: ./cmake_4.5.1-1_aarch64.deb
+Size: 11210196
+MD5sum: da87921272d3ec041c8efe04a56582b5
+SHA1: c6cb0e89962f1887f667024c078f878227af2aec
+SHA256: 4999d2a7731abbbb1a1e9c28f759794cf63d86708c082804a4821013d267ca8f
+
 Package: cmus
 Architecture: aarch64
 Installed-Size: 796
@@ -195,6 +224,23 @@ MD5sum: 9a565635b2aa3d8adbf85f217f55220d
 SHA1: 069f66eea6ff4e90a1f23d407fe7226e0eab9b05
 SHA256: c9b595113acca8edbbc11fa0913b170ff87d9d37d050487ae37a74f735e77ee0
 
+Package: ffmpeg
+Architecture: aarch64
+Installed-Size: 38564
+Maintainer: @termux
+Version: 9.1-1
+Homepage: https://ffmpeg.org
+Breaks: ffmpeg-dev
+Depends: fontconfig, freetype, fribidi, game-music-emu, harfbuzz, libaom, libandroid-glob, libandroid-shmem, libandroid-stub, libass, libbluray, libbs2b, libbz2, libdav1d, libdvdnav, libdvdread, libiconv, libjxl, liblzma, libmysofa, libmp3lame, libopencore-amr, libopenmpt, libopus, libplacebo, librav1e, libsoxr, libsrt, libssh, libtheora, libv4l, libvidstab, libvmaf, libvo-amrwbenc, libvorbis, libvpx, libwebp, libx264, libx265, libxcb, libxml2, libzimg, libzmq, littlecms, ocl-icd, openssl, rubberband, svt-av1, vulkan-icd, xvidcore, zlib
+Conflicts: libav
+Replaces: ffmpeg-dev
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+Filename: ./ffmpeg_9.1-1_aarch64.deb
+Size: 12122524
+MD5sum: b59a3a43257985159ecb49c81c41dcc8
+SHA1: 27772708fec9b9c0c3dde14711559fb1eaafa231
+SHA256: 2fb96f2509fc9c98b7d158b7c5846316de62aff9888a711f8da37c53bcfdcb30
+
 Package: ffmpegthumbnailer
 Architecture: aarch64
 Installed-Size: 396
@@ -252,6 +298,36 @@ Size: 2169076
 MD5sum: 9a43e45c7cfe4b6a43bed2669cbc9527
 SHA1: 4d26b17356bfd32248dcb4ed82bdce317be533d7
 SHA256: e3d0955c3fe64cada432b34ab825b1542c27c5de4e095f0191eaa60fa14fb3b4
+
+Package: glib-cross
+Architecture: all
+Installed-Size: 83948
+Maintainer: @termux
+Version: 2.90.2-1
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.90.2-1)
+Description: glib for host (NOT for Termux)
+Filename: ./glib-cross_2.90.2-1_all.deb
+Size: 13311704
+MD5sum: fb3d00f3e930c3d44b78dfd7b56b2350
+SHA1: 7bd0478bafa278867f8d4795efc14c1c577274fa
+SHA256: 436f94ba9520e9d1fe8f625f4f2cfe8509034581619ec46bd846c13fe8c15f2d
+
+Package: glib
+Architecture: aarch64
+Installed-Size: 20956
+Maintainer: @termux
+Version: 2.90.2-1
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev, glib-bin
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
+Replaces: glib-dev, glib-bin
+Description: Library providing core building blocks for libraries and applications written in C
+Filename: ./glib_2.90.2-1_aarch64.deb
+Size: 2571628
+MD5sum: 0412773473c380541bf369e01a7c881d
+SHA1: 7b9322a734d09196eccb577ededdde805da6dda1
+SHA256: 66c0b68210da0f67e2ea06bea82d3a5b154d65f8e3cce0f541ec00a82d98a141
 
 Package: gomp
 Architecture: aarch64
@@ -352,6 +428,52 @@ Size: 27844
 MD5sum: dd51ae3af328742c37bfe3532db4e724
 SHA1: 899b5d1619046fb9aa463a6aaece7fa22d5bcf41
 SHA256: c111176f26510606b6d0afe4f6b1511c05e95b1d554406db0c702ffeb31cb659
+
+Package: harfbuzz-icu
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 15.2.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: libicu, harfbuzz (= 15.2.0-1)
+Breaks: harfbuzz (<< 7.0.0)
+Replaces: harfbuzz (<< 7.0.0)
+Description: OpenType text shaping engine ICU backend
+Filename: ./harfbuzz-icu_15.2.0-1_aarch64.deb
+Size: 5484
+MD5sum: 93152fb425b777d68623efb1af94fa17
+SHA1: 968daf6f45550d7dfa647ef544fd1e4ce2aa53dc
+SHA256: ddc571405c80373c4a1a0478a32ca2869c5fdbd54c60992ec74d8bdff3afa843
+
+Package: harfbuzz-utils
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @termux
+Version: 15.2.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: harfbuzz (= 15.2.0-1)
+Description: Tools using the harfbuzz library
+Filename: ./harfbuzz-utils_15.2.0-1_aarch64.deb
+Size: 86824
+MD5sum: 76c88ac1cabd8b6c8fadc2e9e57c27ae
+SHA1: 8440ae29e65cc2872b694e30daf33f019f934bd8
+SHA256: 64e1c43256f834b8c5e61fdc98b018c70640c6d3b6b4ac6e0cd4c25195f945a1
+
+Package: harfbuzz
+Architecture: aarch64
+Installed-Size: 5848
+Maintainer: @termux
+Version: 15.2.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Breaks: harfbuzz-dev
+Depends: freetype, glib, libcairo, libgraphite
+Replaces: harfbuzz-dev
+Description: OpenType text shaping engine
+Filename: ./harfbuzz_15.2.0-1_aarch64.deb
+Size: 995264
+MD5sum: a124720ef102eb3680e4a28a87e5606c
+SHA1: 9d1fc55e3d979ff7e8845dcb834582b62abb7977
+SHA256: 30de7ef0c599309ed28d44fee8cb1e1f166aa68d9fdf257b1f3c4c9f3f72a2a2
 
 Package: jack-example-tools
 Architecture: aarch64
@@ -1540,6 +1662,20 @@ MD5sum: ea3f1376a38d7f94d338b69051da668a
 SHA1: 2ad9584ada763d77bd5ecb7de50d72474c0b1c12
 SHA256: e7d5bf8570bd617db2bccda789e56799e34cf02125aa2d044ab5b9a77d980990
 
+Package: ruby-ri
+Architecture: all
+Installed-Size: 64052
+Maintainer: @termux
+Version: 4.0.10-3
+Homepage: https://www.ruby-lang.org/
+Depends: ruby (= 4.0.10-3)
+Description: Ruby documentation index
+Filename: ./ruby-ri_4.0.10-3_all.deb
+Size: 1710084
+MD5sum: aac74f384b43bce5d55812eebc213c1f
+SHA1: 4cfb53b0d978ad21ec0bb200385332dd16cb36ce
+SHA256: 93066876dccc25c55134ca79a6d6c7d2d3825ec6f4eae56f87432fa598841bcf
+
 Package: ruby
 Architecture: aarch64
 Installed-Size: 46196
@@ -1556,6 +1692,23 @@ Size: 9748624
 MD5sum: ade426edf4dab0e9b6ba70885896b6cd
 SHA1: 430060b2f4be12d5030b7bfdc9c4b340a8c5b913
 SHA256: 32634ae4266237501d998f0e5e4d9a0d925576706a52a02b904bc98c5e1606fc
+
+Package: ruby
+Architecture: aarch64
+Installed-Size: 46196
+Maintainer: @termux
+Version: 4.0.10-3
+Homepage: https://www.ruby-lang.org/
+Breaks: ruby-dev
+Depends: libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config, resolv-conf
+Replaces: ruby-dev
+Description: Dynamic programming language with a focus on simplicity and productivity
+Filename: ./ruby_4.0.10-3_aarch64.deb
+Size: 9746952
+MD5sum: 65efcf8439a420ac1febda51fd772953
+SHA1: 6c2f9d27dafe18b690f23eea93c04c8665e59dc2
+SHA256: 0d883fd1ab70650c52743ed825bccc899e117d03577da22892d7ca2acfb4c1a7
 
 Package: snapcast-client
 Architecture: aarch64
@@ -2024,6 +2177,26 @@ MD5sum: 7395fe0d8a9cc9b674cf0f3a5a6509bd
 SHA1: 6ca658b876e6e00d198d6f8a3bb62b8e2777b7e9
 SHA256: 7f4f14e9b972ca4e39d02d37b9fa746747af2afc352a86d297bd6d666c0c61fb
 
+Package: vim
+Architecture: aarch64
+Installed-Size: 35528
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 9.2.1400-1
+Homepage: https://www.vim.org
+Breaks: vim-python, vim-runtime
+Depends: libiconv, libsodium, ncurses
+Conflicts: vim-gtk
+Recommends: diffutils, xxd
+Replaces: vim-python, vim-runtime
+Provides: vim-python
+Suggests: luajit, perl, python, ruby, tcl
+Description: Vi IMproved - enhanced vi editor
+Filename: ./vim_9.2.1400-1_aarch64.deb
+Size: 6854908
+MD5sum: ada5ca86421c1020b1b6070362d1b210
+SHA1: 04bb99631228939988a9d9432c99e610555a132a
+SHA256: d4825f7e871d691feae524ada3c4e580ab9fae2d8658afef6fc855267297c371
+
 Package: vlc
 Architecture: aarch64
 Installed-Size: 12172
@@ -2051,6 +2224,19 @@ Size: 5056276
 MD5sum: 29df3b394f89fdaa1382fd42e84d5bd3
 SHA1: a1028aecb0e8853aa62d8dd44eff707dcf87a933
 SHA256: 439f06f21040414fe3bc3730346faec3225dbf43f26a9e61a94b9d7804e1f6a7
+
+Package: xxd
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 9.2.1400-1
+Homepage: https://www.vim.org
+Description: Hexdump utility from vim
+Filename: ./xxd_9.2.1400-1_aarch64.deb
+Size: 13488
+MD5sum: 19bef24b0a024442d1421ad5c1000b1a
+SHA1: 700a866a35f4e4d194b8ad7cd19b461e0b0ccdb6
+SHA256: 5547fc0a54cd4595952a0f82d51a095c9aa54297711b33e088b9fb356a63cc7b
 
 Package: ytui-music
 Architecture: aarch64
