@@ -1616,6 +1616,60 @@ MD5sum: a31d9efe335fdab7a3e67ffdf26333fd
 SHA1: 572e2db0c3563605c2f4721e7ef23aed1288e07b
 SHA256: c9e8e4eabc53e0819df7713bd6e24f2281dba77afb3a8a5b3fef7dd68374680a
 
+Package: termux-gui-pm
+Architecture: all
+Installed-Size: 60
+Maintainer: @tareksander
+Version: 1.0.0-5
+Homepage: https://github.com/tareksander/termux-gui-pm
+Depends: python, python-pip
+Description: A graphical package manager for various package formats for Termux and proot-distro distros
+Filename: ./termux-gui-pm_1.0.0-5_all.deb
+Size: 20548
+MD5sum: dcc3cb590b6c864d4c8e92abcce66695
+SHA1: 93acd9a17c6b9fee2bb18fb988588eddc18ad343
+SHA256: 855f954f8b8626603f28ed2e02358551e2a6a41117b1ff4289d4a8e12bf6c418
+
+Package: teseq
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 1.1.1-3
+Homepage: https://www.gnu.org/software/teseq/
+Description: Tool for analyzing control characters and terminal control sequences
+Filename: ./teseq_1.1.1-3_aarch64.deb
+Size: 49584
+MD5sum: 12d991ad1ce8cec1d52189ff38a890f5
+SHA1: 53a6c4fe152229e2a41eac08ae79d66befaa7605
+SHA256: f98060e10bf05cae02f4047d563050c4a99a00dcd5b712fd1428a80f7785b8ac
+
+Package: testssl.sh
+Architecture: all
+Installed-Size: 3796
+Maintainer: @termux
+Version: 3.2.5-1
+Homepage: https://testssl.sh/
+Depends: bash, ca-certificates, coreutils, curl, gawk, openssl-tool, procps, resolv-conf, socat
+Description: Testing TLS/SSL encryption anywhere on any port.
+Filename: ./testssl.sh_3.2.5-1_all.deb
+Size: 920172
+MD5sum: 47e7d08f8d243c66bd6340403940c19b
+SHA1: 50c1317d945a1ccbc1fedd6863a400439ae80bc1
+SHA256: 1c79ac7ee8df1222b7665cc921e62f77b40a4b24686c3993399dd2acc24b9e17
+
+Package: texlab
+Architecture: aarch64
+Installed-Size: 13720
+Maintainer: @termux
+Version: 5.26.0-1
+Homepage: https://texlab.netlify.app/
+Description: A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system
+Filename: ./texlab_5.26.0-1_aarch64.deb
+Size: 8810652
+MD5sum: c3083e9c8463109e7642d07e056b499d
+SHA1: 20b54b5c6f1d70a85b24d2c896860a59fc29922f
+SHA256: f906c86d18f833596fde4bd601977b7a348a169bad374a9f468bbb3de323584c
+
 Package: texlive-bin-static
 Architecture: aarch64
 Installed-Size: 1828
@@ -1646,6 +1700,22 @@ Size: 10772704
 MD5sum: ae7b3d7083bbd8c04b6d91ccff72cf5b
 SHA1: 6a5efbe9d64aeaad78da89473f9f2cb894497bde
 SHA256: fd41b0f4a8758d771fcc079cd44fc1f083f803ba38b351a5272072c7d3fbcc7b
+
+Package: texlive-installer
+Architecture: all
+Installed-Size: 2880
+Maintainer: Henrik Grimler @Grimler91
+Version: 20260301-1
+Homepage: https://www.tug.org/texlive/
+Breaks: texlive
+Depends: perl, texlive-bin (>= 20240310), gnupg, curl, lz4, xz-utils
+Replaces: texlive
+Description: Wrapper around texlive's install-tl script
+Filename: ./texlive-installer_20260301-1_all.deb
+Size: 522368
+MD5sum: e828c2707eecb5aec6e08972ce28e961
+SHA1: ac3c6603f33de30bcf04f5a63fba3e6a4d42e10b
+SHA256: 481133dc5b77d363b7b1d1ace1db8556d76391a518c91d9a6cdaa1fc4fa06740
 
 Package: timg
 Architecture: aarch64
