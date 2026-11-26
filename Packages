@@ -475,6 +475,20 @@ MD5sum: a124720ef102eb3680e4a28a87e5606c
 SHA1: 9d1fc55e3d979ff7e8845dcb834582b62abb7977
 SHA256: 30de7ef0c599309ed28d44fee8cb1e1f166aa68d9fdf257b1f3c4c9f3f72a2a2
 
+Package: hugo
+Architecture: aarch64
+Installed-Size: 64892
+Maintainer: @termux
+Version: 0.170.1-1
+Homepage: https://gohugo.io/
+Depends: libc++
+Description: A fast and flexible static site generator
+Filename: ./hugo_0.170.1-1_aarch64.deb
+Size: 14150628
+MD5sum: 5d9ff1cfb5d9d5d5d49db16b96c6cce4
+SHA1: 20e60b5509e5130d3156fadf8749e41f65a48721
+SHA256: aaea8cec516a71229ffa9730e6ddf23e9c2d33bf5fcf0bef8e73be7269a274af
+
 Package: jack-example-tools
 Architecture: aarch64
 Installed-Size: 608
@@ -1205,6 +1219,20 @@ MD5sum: 79c7cab098b7153eea91630dbfe96ea6
 SHA1: 6bb3c8ded0ad6b2098bb3d55238072b66451d377
 SHA256: c894d4ba77b363d57efa68c842b72a1979dc2ba9969fca3331e779e1cd8085e1
 
+Package: nginx
+Architecture: aarch64
+Installed-Size: 1628
+Maintainer: @termux
+Version: 1.31.10-1
+Homepage: https://www.nginx.org
+Depends: libandroid-glob, libcrypt, pcre2, openssl, zlib
+Description: Lightweight HTTP server
+Filename: ./nginx_1.31.10-1_aarch64.deb
+Size: 451848
+MD5sum: 4f5bf29d70e3ddd591d088ce4bab08ba
+SHA1: a7c944639d7f8eaf41de4325a0040c5ba537e346
+SHA256: d340013c636cba9fa7f658592d49fb68dd1fcf5d5abae45facea311b924cdff0
+
 Package: notcurses-data
 Architecture: all
 Installed-Size: 6500
@@ -1334,6 +1362,150 @@ Size: 968092
 MD5sum: dcaec8299102e3c0cc203682a46d0d67
 SHA1: b67d05d9880e05452ce567674543a870cdfa82d3
 SHA256: 45f2518aec54babe8e859d6ca84e37fb0d46842afcd646805712dff690dcb2ca
+
+Package: php-apache-ldap
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: openldap, php-apache, php (= 8.5.13-1)
+Description: LDAP module for PHP/Apache
+Filename: ./php-apache-ldap_8.5.13-1_aarch64.deb
+Size: 25952
+MD5sum: 3c4df9a09eff7159062ae6e61768fb4e
+SHA1: 38fa27f824e2ec2b2f0841e24b557e89e5acef64
+SHA256: 4d61a628acfaea8114d0183f0b47660e5769447096d3e0ea8605acba4166424c
+
+Package: php-apache-pgsql
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: php-apache, postgresql, php (= 8.5.13-1)
+Description: PostgreSQL modules for PHP/Apache
+Filename: ./php-apache-pgsql_8.5.13-1_aarch64.deb
+Size: 58444
+MD5sum: 79e456d20b50744a55a2fcd979c43069
+SHA1: b582dfcf20256d773c2b2c708235088154d4c770
+SHA256: 496eafc6afe58d983d071495855e53437001000dc9e43bc00069f309824d06ba
+
+Package: php-apache-sodium
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: libsodium, php-apache, php (= 8.5.13-1)
+Description: Sodium module for PHP/Apache
+Filename: ./php-apache-sodium_8.5.13-1_aarch64.deb
+Size: 22208
+MD5sum: 1306304f265e534f1ae9b81bd0661180
+SHA1: 2f687354ae2cc6936623dac329f4d6e76e6e57ae
+SHA256: 005396b559c3e2aaf48af9927f9a1bf1a870349567c4f59191570fc60ea293c4
+
+Package: php-apache
+Architecture: aarch64
+Installed-Size: 24400
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: apache2, apr-util, php (= 8.5.13-1)
+Description: Apache 2.0 Handler module for PHP
+Filename: ./php-apache_8.5.13-1_aarch64.deb
+Size: 3695456
+MD5sum: 2ffe4e2945561b159b68418654874451
+SHA1: 233c3c2146cf06db09bf28f90dafed2a94564ada
+SHA256: c7f8a84266695aebd0bb3529e167c24db3fd4b4da3681b5f00f07b890c066463
+
+Package: php-fpm
+Architecture: aarch64
+Installed-Size: 24452
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: php (= 8.5.13-1)
+Breaks: php (<< 8.1.12)
+Replaces: php (<< 8.1.12)
+Description: FastCGI Process Manager for PHP
+Filename: ./php-fpm_8.5.13-1_aarch64.deb
+Size: 3750224
+MD5sum: 8260fdcf972f72b26057a278b4fad078
+SHA1: 9793d1e9a509b655d648d55d3558eea23d6b2f02
+SHA256: 1dfa8f7a95763b76724cd9d31f95e936569f12c585840a378733c4ce34302e30
+
+Package: php-gd
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: libgd, php (= 8.5.13-1)
+Description: gd module for PHP
+Filename: ./php-gd_8.5.13-1_aarch64.deb
+Size: 30416
+MD5sum: 1971100dbc4681b8f0d913f07b1f85ab
+SHA1: 4de3301070feb084ca33026d1a751f154ea83b00
+SHA256: f1ce10f2ebbb11532463f78761986fd89f7ae1cbf8c2b025d2f4216e0336449e
+
+Package: php-ldap
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: openldap, php (= 8.5.13-1)
+Description: LDAP module for PHP
+Filename: ./php-ldap_8.5.13-1_aarch64.deb
+Size: 25812
+MD5sum: 0dcc904ea4183feacba8c1b6ca6e734a
+SHA1: 2849076ee0f2558d961e5465b9efcc8e10860554
+SHA256: 682d2b5924d36ef62352b7357a65119195c22400bc95254425d89d147af4d8e6
+
+Package: php-pgsql
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: postgresql, php (= 8.5.13-1)
+Description: PostgreSQL modules for PHP
+Filename: ./php-pgsql_8.5.13-1_aarch64.deb
+Size: 58296
+MD5sum: 4277573e83d63823da07369ae5e5159e
+SHA1: 33c154e8aa76613eb5a2cdd90f2dd664fccb2f42
+SHA256: bf94346d0e940caf1c5b7361fdaec2630e4c110b19cd5431dea877c03eb1693b
+
+Package: php-sodium
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: libsodium, php (= 8.5.13-1)
+Description: Sodium module for PHP
+Filename: ./php-sodium_8.5.13-1_aarch64.deb
+Size: 22248
+MD5sum: 86d28dbe6d9ab8b7aa4f41ca9fd1edf7
+SHA1: ad9d59be635a38e11e54528fc9a970f2f791e725
+SHA256: 27fbc5a108b9d9a5b215073f0ae23ee35a93d7d553f0b7c42a3d26bc461e0390
+
+Package: php
+Architecture: aarch64
+Installed-Size: 82332
+Maintainer: @termux
+Version: 8.5.13-1
+Homepage: https://php.net
+Depends: capstone, libandroid-glob, libandroid-support, libbz2, libc++, libcurl, libffi, libgmp, libiconv, libicu, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, tidy, zlib
+Conflicts: php-mysql, php-dev
+Replaces: php-mysql, php-dev
+Description: Server-side, HTML-embedded scripting language
+Filename: ./php_8.5.13-1_aarch64.deb
+Size: 11960920
+MD5sum: 70e395e6d36775a1d13fdd0e59d921b1
+SHA1: c06940569bdf746ca1231c8d2be8f8290a326b53
+SHA256: ed2bc1b86e074c59c02430a414e99ba40f67e45e384d33abfc3548b2570fd2bc
 
 Package: pianobar
 Architecture: aarch64
@@ -1558,6 +1730,22 @@ MD5sum: da9736fb760cad44669c4ff25b714b0c
 SHA1: 6d14f5ebacd157c276b58f2325a8d6b040ab585a
 SHA256: b943b697df4d0e8f886b4f1eaef15e03b75563fdf86851e1ca48c3acebd512f6
 
+Package: redis
+Architecture: aarch64
+Installed-Size: 4260
+Maintainer: @termux
+Version: 1:8.12.0-1
+Homepage: https://redis.io/
+Breaks: valkey
+Depends: libandroid-execinfo, libandroid-glob, openssl
+Conflicts: valkey
+Description: In-memory data structure store used as a database, cache and message broker
+Filename: ./redis_1:8.12.0-1_aarch64.deb
+Size: 1256564
+MD5sum: 35f2f64a403369f96fad5cdb3e1df8c5
+SHA1: a79a8e23319e2aa8033ff5166d7eae95f7bf0e8a
+SHA256: 110fc847e3aaa999719278b17866b474c2cf9b61602509ab95c63307304a68fb
+
 Package: restic
 Architecture: aarch64
 Installed-Size: 52240
@@ -1571,6 +1759,21 @@ Size: 10638136
 MD5sum: 893ed60e1bde4c91a14539c7a21b98bf
 SHA1: 010afdf458f3d814b0808a14396b26005e79df5c
 SHA256: cabdfb96b1413a263872f32780b496ba075fd2c00a2e08066882f0b9ef8d6b40
+
+Package: ripgrep
+Architecture: aarch64
+Installed-Size: 5072
+Maintainer: @termux
+Version: 16.0.0-1
+Homepage: https://github.com/BurntSushi/ripgrep
+Depends: pcre2
+Recommends: brotli, lz4
+Description: Search tool like grep and The Silver Searcher
+Filename: ./ripgrep_16.0.0-1_aarch64.deb
+Size: 1239220
+MD5sum: da752b8fecdd4387499456c561c38fa7
+SHA1: 1a21fac8c6581a45e46e3586a8747849bf7395fe
+SHA256: d25e6b4c84dfc3d2aeb3a6e91497636d36c40360bac32aac396114cfc24b8d6a
 
 Package: rubberband-ladspa
 Architecture: aarch64
@@ -2006,6 +2209,19 @@ Size: 13065780
 MD5sum: e6b1da1c94c388d8a37da902a84e30dd
 SHA1: f0797634588697850f7373fda13feea8fe725736
 SHA256: 43f9b7879b676ea1a7894b3d0f65fb6b44c3ff691b6248350edfb17decfb2333
+
+Package: tomlplusplus
+Architecture: aarch64
+Installed-Size: 928
+Maintainer: @CosmyBeyondStars
+Version: 3.5.1-1
+Homepage: https://marzer.github.io/tomlplusplus/
+Description: Header-only TOML config file parser and serializer for C++ 17
+Filename: ./tomlplusplus_3.5.1-1_aarch64.deb
+Size: 108340
+MD5sum: f060978844c40521de22d1fcff335ede
+SHA1: eaaf8e6d6adb4dcbc6a1bb05264aa953db700afe
+SHA256: 9782ec86ea96a2c8e64744fa3974e75ff17e28aed725b8a07cbfeb3576b1cc46
 
 Package: tsduck-java
 Architecture: aarch64
