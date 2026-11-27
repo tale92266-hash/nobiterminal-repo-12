@@ -166,6 +166,20 @@ MD5sum: 3c5c6463d6173f4ec7559bbc8600576a
 SHA1: 50eb398db7139f361906c16857c444ec083efd53
 SHA256: 18bf0eb6cdaf58d4b1c9dcffd8acd55ca157194278239c4267ae426e9e44d127
 
+Package: composer
+Architecture: all
+Installed-Size: 3776
+Maintainer: @termux
+Version: 2.11.3-1
+Homepage: https://getcomposer.org/
+Depends: php
+Description: Dependency Manager for PHP
+Filename: ./composer_2.11.3-1_all.deb
+Size: 623672
+MD5sum: f5bf4be1340bc7b91346de4d95b710b4
+SHA1: 222f7422648b816d1e66aab954a17626fb7d2b3a
+SHA256: 5e91de56bda61169e450ce200ac1225d525275699e5ea7470847464533b2ae08
+
 Package: dcmtk
 Architecture: aarch64
 Installed-Size: 59912
@@ -284,6 +298,20 @@ Size: 1276408
 MD5sum: baec7a09930c4f9c2a24a8ff4b86b0b9
 SHA1: d5d2276add2b62e71d29a0bcf2d0f5f0147118c1
 SHA256: 372b3a9c166c82e99598ab9d3316eab4cb8d4520c7bb55b11f51c756f375cd69
+
+Package: gh
+Architecture: aarch64
+Installed-Size: 42604
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 2.106.0-1
+Homepage: https://cli.github.com/
+Recommends: openssh
+Description: GitHub’s official command line tool
+Filename: ./gh_2.106.0-1_aarch64.deb
+Size: 9981780
+MD5sum: 9213f9669e41391f1b7925446c839e19
+SHA1: ea453cb7f1689705b6d3f30a71adabc4632c47a0
+SHA256: 2de159295177bb791b77cc2b8e86d17d1d28cde0fc011e53850d6b439a40d029
 
 Package: git-delta
 Architecture: aarch64
@@ -544,6 +572,19 @@ Size: 230476
 MD5sum: b672596ecd641444fcbe14f4b4750bde
 SHA1: 4e14082fba27354929da9da33558ca7780b64762
 SHA256: 135c73499e7757f2ff48d411929345a06cc1580b76d7dffd67c1da9a1faf23c7
+
+Package: kubectl
+Architecture: aarch64
+Installed-Size: 61216
+Maintainer: @termux
+Version: 1.37.3-1
+Homepage: https://kubernetes.io/
+Description: Kubernetes.io client binary
+Filename: ./kubectl_1.37.3-1_aarch64.deb
+Size: 10842232
+MD5sum: b01c1a46f95383ecda31a76a2e5dc1dd
+SHA1: e9a2228799007f994119258b00579d9e2ad5017b
+SHA256: 16add21636d924f1f8c6021c92b2ddac8e1ac557804ba91054e0f73fb6b77c8c
 
 Package: ladspa-sdk
 Architecture: aarch64
@@ -1661,6 +1702,20 @@ MD5sum: af44415315e99cec74651f14621f6454
 SHA1: 5479cc696496b05a72b33c730511b7faac631470
 SHA256: 0818b8ad7657a9fac1bd1655f86c0d55562442a85b7ec1c780f25ca532275510
 
+Package: python-ruff
+Architecture: aarch64
+Installed-Size: 528
+Maintainer: @termux
+Version: 0.17.6-1
+Homepage: https://github.com/charliermarsh/ruff
+Depends: python, python-pip, ruff (= 0.17.6-1)
+Description: An extremely fast Python linter, written in Rust (Python bindings)
+Filename: ./python-ruff_0.17.6-1_aarch64.deb
+Size: 50020
+MD5sum: fe6d794c0d1bfee0e0ec69d1064b56ad
+SHA1: c9ef9e5ff4b97254bfc47b27e7d285ba9de3f70f
+SHA256: 79e8c3caa16f3a43b909067adee5d31077d444df51dfb0a774ac392272a52bf2
+
 Package: python-torchaudio
 Architecture: aarch64
 Installed-Size: 1604
@@ -1702,6 +1757,22 @@ Size: 449248
 MD5sum: a6d8c0139598d7b741806a24a1bde3f1
 SHA1: 5f68742deb88cc1043897bcf257af34c0686389f
 SHA256: 544350df6e112304ee176ac52f9c31743a6b59452380e6f81f771084546a958c
+
+Package: python-yt-dlp
+Architecture: aarch64
+Installed-Size: 11916
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2026.11.23-1
+Homepage: https://github.com/yt-dlp/yt-dlp
+Depends: libc++, libexpat, openssl, python, python-brotli, python-pip, python-pycryptodomex
+Recommends: ffmpeg, yt-dlp-ejs
+Provides: yt-dlp
+Description: A youtube-dl fork with additional features and fixes
+Filename: ./python-yt-dlp_2026.11.23-1_aarch64.deb
+Size: 1742520
+MD5sum: a228d7cd153f60edfdbce71167d61024
+SHA1: 54aee013e9f560a5a45b57cfa930a013376d4215
+SHA256: 31aa9fe1227aa54ec3c1536f8a5818f07a0d91e3713596924c26421b1a2ceba2
 
 Package: pzstd
 Architecture: aarch64
@@ -1940,6 +2011,19 @@ Size: 9746952
 MD5sum: 65efcf8439a420ac1febda51fd772953
 SHA1: 6c2f9d27dafe18b690f23eea93c04c8665e59dc2
 SHA256: 0d883fd1ab70650c52743ed825bccc899e117d03577da22892d7ca2acfb4c1a7
+
+Package: ruff
+Architecture: aarch64
+Installed-Size: 21128
+Maintainer: @termux
+Version: 0.17.6-1
+Homepage: https://github.com/charliermarsh/ruff
+Description: An extremely fast Python linter, written in Rust
+Filename: ./ruff_0.17.6-1_aarch64.deb
+Size: 6159480
+MD5sum: aedf942720a63ceaed147cf26e75bfb9
+SHA1: 065b90e1131d711297d5d5d8bd1f2449d67e6663
+SHA256: 24997558aadaa1487a7f6dac448a0a33088e47d6c831fa9ef8512880674681c0
 
 Package: snapcast-client
 Architecture: aarch64
