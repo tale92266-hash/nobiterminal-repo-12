@@ -423,6 +423,20 @@ MD5sum: 9a43e45c7cfe4b6a43bed2669cbc9527
 SHA1: 4d26b17356bfd32248dcb4ed82bdce317be533d7
 SHA256: e3d0955c3fe64cada432b34ab825b1542c27c5de4e095f0191eaa60fa14fb3b4
 
+Package: git-delta
+Architecture: aarch64
+Installed-Size: 5584
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.22.0-1
+Homepage: https://dandavison.github.io/delta/
+Depends: git, libgit2, oniguruma
+Description: A syntax-highlighter for git and diff output
+Filename: ./git-delta_0.22.0-1_aarch64.deb
+Size: 2170516
+MD5sum: 0b1b1338c938018caf0625cc480fd795
+SHA1: 85a3556c85eff80f6bded6c7b63ec44598a55128
+SHA256: eb43fef6c5bfbffe7b43667a9cafe9588349020fb25698ab58525046f971c038
+
 Package: glib-cross
 Architecture: all
 Installed-Size: 83948
@@ -452,6 +466,34 @@ Size: 2571628
 MD5sum: 0412773473c380541bf369e01a7c881d
 SHA1: 7b9322a734d09196eccb577ededdde805da6dda1
 SHA256: 66c0b68210da0f67e2ea06bea82d3a5b154d65f8e3cce0f541ec00a82d98a141
+
+Package: gmic-gm
+Architecture: aarch64
+Installed-Size: 5372
+Maintainer: @termux
+Version: 4.0.8-1
+Homepage: https://gmic.eu
+Depends: graphicsmagick, fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Description: Full-featured framework for image processing (GraphicsMagick variant)
+Filename: ./gmic-gm_4.0.8-1_aarch64.deb
+Size: 2789688
+MD5sum: 54e4752a2a8bc3a7f83576758589adc4
+SHA1: e56b387481fc6e3c01c1f25806906bc0e31691d0
+SHA256: 84cd434ff7d1a52f0e200a869a9440ac600775f4b022a8ee6007ed77b7b6fb42
+
+Package: gmic
+Architecture: aarch64
+Installed-Size: 5372
+Maintainer: @termux
+Version: 4.0.8-1
+Homepage: https://gmic.eu
+Depends: fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Description: Full-featured framework for image processing
+Filename: ./gmic_4.0.8-1_aarch64.deb
+Size: 2787612
+MD5sum: b057b8a9691e5a4415e4e154a369500d
+SHA1: a370b8a5223c5f43240386466e4374bf6068368d
+SHA256: b70f7f61d20a7bfae32a58750d729e83d665ea6dd0778413cbfa393e236932c3
 
 Package: gnutls
 Architecture: aarch64
@@ -626,6 +668,20 @@ Size: 27844
 MD5sum: dd51ae3af328742c37bfe3532db4e724
 SHA1: 899b5d1619046fb9aa463a6aaece7fa22d5bcf41
 SHA256: c111176f26510606b6d0afe4f6b1511c05e95b1d554406db0c702ffeb31cb659
+
+Package: haproxy
+Architecture: aarch64
+Installed-Size: 6452
+Maintainer: @termux
+Version: 3.4.9-1
+Homepage: https://www.haproxy.org/
+Depends: lua53, openssl, pcre2, zlib
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
+Filename: ./haproxy_3.4.9-1_aarch64.deb
+Size: 1734496
+MD5sum: 570981d601f4a3eefe99b91d376d5684
+SHA1: 0de72b5683e156d634a9781af2c276cc96ee5fbd
+SHA256: 0e080b5d2b98ed74efeb505b1a3585f032f64333f1851114128cd07295e0f987
 
 Package: harfbuzz-icu
 Architecture: aarch64
@@ -1028,6 +1084,36 @@ Size: 778744
 MD5sum: 5597424d953c5e4d1403b42d276f2988
 SHA1: 5b3c393417bb449ae782eb3f4a40dea66bfdaa4a
 SHA256: 2be07db7a7742c2c6601632f9484695dd2bf8736eac3138dafaf5e5669e8ff27
+
+Package: libhdf5-static
+Architecture: aarch64
+Installed-Size: 15228
+Maintainer: @termux
+Version: 2.3.0-1
+Homepage: https://www.hdfgroup.org/solutions/hdf5/
+Depends: libhdf5 (= 2.3.0-1)
+Description: Static libraries for libhdf5
+Filename: ./libhdf5-static_2.3.0-1_aarch64.deb
+Size: 1809512
+MD5sum: eeeb90ae6187d59a2ba16e2b1be605c4
+SHA1: 1e34970cda77411bbc95cdd575f0b4f91185b7b5
+SHA256: 57850aab4f011549429a321749e689df20194f9c761e3bddb3b8e8ff1503fc75
+
+Package: libhdf5
+Architecture: aarch64
+Installed-Size: 9136
+Maintainer: @termux
+Version: 2.3.0-1
+Homepage: https://www.hdfgroup.org/solutions/hdf5/
+Breaks: libhdf5-dev
+Depends: libc++, zlib
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: ./libhdf5_2.3.0-1_aarch64.deb
+Size: 1831868
+MD5sum: 6941e0e312206c5a960069cf1917c764
+SHA1: 524d6fbd17480e48300bc8cf6c2631d58ab6cc42
+SHA256: a6198e8654e89b1b519a0326917339621f4e49c435345ffa5fb871fb4d59e628
 
 Package: libmspub-static
 Architecture: aarch64
@@ -1874,6 +1960,20 @@ MD5sum: 2e5d905a2437f906d6f928f5b40b0358
 SHA1: 4357435b110f7c12b71dacc09fb424c695607b6c
 SHA256: cb7bdbb7533a3b2633b90b663e776e7189bde230ecb29861e3efd3fca324a5a9
 
+Package: parallel
+Architecture: all
+Installed-Size: 4936
+Maintainer: @termux
+Version: 20261122-1
+Homepage: https://www.gnu.org/software/parallel/
+Depends: perl
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+Filename: ./parallel_20261122-1_all.deb
+Size: 2151016
+MD5sum: 187dccc2f28f28a792925a40414cde8c
+SHA1: 85c97513414dd35e7c2a385693c744a35c3b10cc
+SHA256: ffb15202424a94b94605ce068a28fc3e2688cdbf120690d1bc1d5a647a27f9a4
+
 Package: pdftk
 Architecture: all
 Installed-Size: 1052
@@ -2270,6 +2370,36 @@ Size: 42940
 MD5sum: d1a8524758ad233f5711b30ab7c4f44a
 SHA1: f1af948ef989f4d118eaaf02900abf1e36550ab5
 SHA256: 59f542c8e2cab53ee9ff55da42a7bea7a45e371c0248e6023a82b0e77c1f100c
+
+Package: qalc-static
+Architecture: aarch64
+Installed-Size: 11896
+Maintainer: @termux
+Version: 5.13.2-1
+Homepage: https://qalculate.github.io/
+Depends: qalc (= 5.13.2-1)
+Description: Static libraries for qalc
+Filename: ./qalc-static_5.13.2-1_aarch64.deb
+Size: 1781212
+MD5sum: 3887ca23fdc99e6d07f5160265f5a0f7
+SHA1: afddf9ff249add66c984fbdb4c077f1e91a39345
+SHA256: dd4e033fc41fb1dfbdcddd600f99cfa780b4e6bcc9b3da0caf6e120deb66064e
+
+Package: qalc
+Architecture: aarch64
+Installed-Size: 6964
+Maintainer: @termux
+Version: 5.13.2-1
+Homepage: https://qalculate.github.io/
+Breaks: qalc-dev
+Depends: libc++, libcurl, libgmp, libiconv, libmpfr, libxml2, readline
+Replaces: qalc-dev
+Description: Powerful and easy to use command line calculator
+Filename: ./qalc_5.13.2-1_aarch64.deb
+Size: 1726092
+MD5sum: 5f4a60c63e5eabc3b33e8d299a09e347
+SHA1: ee86cdce89336a5eb0d6e9257ec672b66dad3368
+SHA256: 619cadb0eac6dc84839a29d8f2b583bb7b401314adfccc03edbd7434cf2cc44c
 
 Package: qrsspig
 Architecture: aarch64
