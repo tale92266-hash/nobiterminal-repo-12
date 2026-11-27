@@ -40,6 +40,20 @@ MD5sum: 3712a5c3adcac90d8f5f5b873f8398df
 SHA1: 9ca28c393de3b97cf703d14cde3eef17e8f9e4ef
 SHA256: fc668341f75a0724955ce54f572ddce5b2d06837f8fb1c6d852c7ad26751093b
 
+Package: ani-cli
+Architecture: all
+Installed-Size: 92
+Maintainer: @termux
+Version: 5.2-1
+Homepage: https://github.com/pystardust/ani-cli
+Depends: aria2, ffmpeg, fzf, grep, sed, wget
+Description: A cli to browse and watch anime
+Filename: ./ani-cli_5.2-1_all.deb
+Size: 10360
+MD5sum: f721a66912fdace0eac2b5c7de0dc5a4
+SHA1: ed191951cc2f3b512c28d3220986a5f6430a2d15
+SHA256: e3dd66d1651d2ea1e7f02c035c489d28d82aa319b1578c1877f477ff456f1043
+
 Package: aubio-static
 Architecture: aarch64
 Installed-Size: 1040
@@ -856,6 +870,21 @@ MD5sum: e2f79134d0d91fe6cbf54870560df58a
 SHA1: b475cc14659fb8d22786ee7651603aaa46a63e0e
 SHA256: 1654e09bcaf605bc213a83611f23482104123efebdcd84c06b7e22939a6cf49b
 
+Package: libcue
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.4.4-1
+Homepage: https://github.com/lipnitsk/libcue/
+Breaks: libcue-dev
+Replaces: libcue-dev
+Description: CUE Sheet Parser Library
+Filename: ./libcue_2.4.4-1_aarch64.deb
+Size: 18116
+MD5sum: a9db75c409aa090081f063579d47f649
+SHA1: da69131e2d1f962441d29107838b038581a36cfc
+SHA256: 96de093e54bb6879a85eff54fa42722e5cb4f1bab744cab58ec55a575ad8c2a4
+
 Package: libeatmydata
 Architecture: aarch64
 Installed-Size: 104
@@ -926,6 +955,49 @@ Size: 106040
 MD5sum: cfab22b78bdfafe9ca9587cbf8f84d1e
 SHA1: c6ffab0e57c67849c0f166191cd6ff8927bdc771
 SHA256: b29e84c7e0fea97c744e697d4900d5201deb62a0b029773471b29d19b51abf25
+
+Package: libffi-static
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: @termux
+Version: 3.8.2-1
+Homepage: https://sourceware.org/libffi/
+Depends: libffi (= 3.8.2-1)
+Description: Static libraries for libffi
+Filename: ./libffi-static_3.8.2-1_aarch64.deb
+Size: 17600
+MD5sum: bdff3d47a9e36582417cea8881dfa9ce
+SHA1: ff194e5ccc160537c7052380ca81c16467e1d8d3
+SHA256: 78f68cf529d2a35aa2ebc49b64a99d32368762e4e6a7225e0cadcc8134e3daf8
+
+Package: libffi
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 3.8.2-1
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: ./libffi_3.8.2-1_aarch64.deb
+Size: 36092
+MD5sum: 1869ce770fade3822323e55d83f15ecf
+SHA1: d4aaa344ca1218932fdbab128b6f5f51f8c5ec67
+SHA256: 671f06ac1b1528a7f8362a8ed2ecdd00fe74c1a6d189b4ccfedfc2252e20a196
+
+Package: libgedit-gfls
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 0.5.1-1
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-gfls
+Depends: glib
+Description: A module dedicated to file loading and saving
+Filename: ./libgedit-gfls_0.5.1-1_aarch64.deb
+Size: 38572
+MD5sum: ae0080a365eb7ab184d0edfa33658b93
+SHA1: a96868645be5331723f2dd1a1b9019870b465bd1
+SHA256: 1044633c989d344d436abf910c82e901b2a3ceeb60b55b87dc71f933a659de73
 
 Package: libgnutls-static
 Architecture: aarch64
@@ -1565,6 +1637,22 @@ MD5sum: b406c6dc560f481ef6d8cdfafa0cdb6a
 SHA1: be4694b0397b52ecd5a7dcb92abfd51c2b905076
 SHA256: 81fd727159b79bc7c1e3fa30de5a78b1fd1ad0a8479f2c17cd7c7f13f3555b74
 
+Package: ncdu
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.24.1-2
+Homepage: https://dev.yorhel.nl/ncdu
+Breaks: ncdu2
+Depends: libandroid-support, ncurses
+Conflicts: ncdu2
+Description: Disk usage analyzer
+Filename: ./ncdu_1.24.1-2_aarch64.deb
+Size: 37644
+MD5sum: a83e4455ca31ad19cdd18fd346ddf5ca
+SHA1: 3cb6b897f6beb0a0ef8d0b8db74567c7f794f1e8
+SHA256: 915af2af6f3bddcc030bcaea329240bb3a9642c29384f994a225e5e043be381a
+
 Package: ncpamixer
 Architecture: aarch64
 Installed-Size: 180
@@ -2028,6 +2116,19 @@ Size: 1848020
 MD5sum: 399bc25ce062dab42451c23b4145c774
 SHA1: fd3a051410a0015aad89b6751bc657905e6c419a
 SHA256: 285b2b63d12da541d2ff29bb0d7bd7f8f56dc115615923f8e037e043bf7c0492
+
+Package: proxychains-ng
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 4.18-1
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies
+Filename: ./proxychains-ng_4.18-1_aarch64.deb
+Size: 24912
+MD5sum: 2a2df2bcd1b0b136e716f793e01cbd2c
+SHA1: 48b6207e48e930add6b4ae54fa90bcd36c75ac0a
+SHA256: 86ed782b35543df2683af39617b3a55344ae953fed5f9d282a12b58c6430b29f
 
 Package: psl-native-test
 Architecture: aarch64
