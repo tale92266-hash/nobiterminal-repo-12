@@ -95,6 +95,19 @@ MD5sum: 2933f64c544a4729289bbf034282080d
 SHA1: 2e9c3e1deeb1f9306c154e8a71b52f38baf68859
 SHA256: ed37717634258bba0d610a786be20ec26ba99acd163aa85f5a11658ce718a399
 
+Package: carapace
+Architecture: aarch64
+Installed-Size: 63044
+Maintainer: @termux
+Version: 1.8.5-1
+Homepage: https://carapace.sh/
+Description: Multi-shell multi-command argument completer
+Filename: ./carapace_1.8.5-1_aarch64.deb
+Size: 9477692
+MD5sum: d8d69d17143d54198b6a93f9a46a3405
+SHA1: bb68abb4338f9e688f6196cfc1356eba9a91efaa
+SHA256: f0bd3b432cd31c582139179f352064fb56279f28e4d61d250762f71a613bf372
+
 Package: chromaprint
 Architecture: aarch64
 Installed-Size: 80
@@ -482,6 +495,36 @@ MD5sum: 3c4de02408d1e2f97ba1bb8d82f6e940
 SHA1: 1ba12d5a02422d7b1b94d8b432c1a8622ee415e0
 SHA256: 8eb08fa4106ed6582c700ae120bd5444c95ea24926d1a966542e55b177a6524d
 
+Package: gpgme-static
+Architecture: aarch64
+Installed-Size: 704
+Maintainer: @termux
+Version: 2.3.1-1
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gpgme (= 2.3.1-1)
+Description: Static libraries for gpgme
+Filename: ./gpgme-static_2.3.1-1_aarch64.deb
+Size: 128712
+MD5sum: 4a3e1393c9668ea65ea510cac5597d9a
+SHA1: b5e67ad251204e78a7f83da8823546464d6565ca
+SHA256: dab53ab3ec7d8ce09f9af12b4a6851edbcd56ba1dacfee34a2e5fe51422079e6
+
+Package: gpgme
+Architecture: aarch64
+Installed-Size: 1240
+Maintainer: @termux
+Version: 2.3.1-1
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Breaks: gpgme-dev
+Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
+Replaces: gpgme-dev
+Description: Library designed to make access to GnuPG easier
+Filename: ./gpgme_2.3.1-1_aarch64.deb
+Size: 264032
+MD5sum: c9a6aee773d3159265d83706d9c2ba66
+SHA1: f2acdea553ca1e66dd3fe903409d6df9d059f496
+SHA256: e04c253c58e6907663fe096f3c0bf2211d41d47876cee82ca4a149961dd1f595
+
 Package: graphviz-static
 Architecture: aarch64
 Installed-Size: 4176
@@ -855,6 +898,35 @@ MD5sum: 06a52be9d686d462801d91d881626255
 SHA1: fa61cd83bea0ea2cd12275f2470071b8ef171062
 SHA256: 9d8e308942171d7e68b790ac6578a378702e4f2e49565510338b88a1d67437fb
 
+Package: libexpat-static
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 2.11.0-1
+Homepage: https://libexpat.github.io/
+Depends: libexpat (= 2.11.0-1)
+Description: Static libraries for libexpat
+Filename: ./libexpat-static_2.11.0-1_aarch64.deb
+Size: 64848
+MD5sum: 0bf46c742a2a5c736cb3c90b6bdc8666
+SHA1: e873efab7cba6baf59d01d687c897fe41a4df476
+SHA256: b3d7032158ad1d77a99e870f5367ee98968c8b502344ea818a852fbcb7e8d820
+
+Package: libexpat
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 2.11.0-1
+Homepage: https://libexpat.github.io/
+Breaks: libexpat-dev
+Replaces: libexpat-dev
+Description: XML parsing C library
+Filename: ./libexpat_2.11.0-1_aarch64.deb
+Size: 106040
+MD5sum: cfab22b78bdfafe9ca9587cbf8f84d1e
+SHA1: c6ffab0e57c67849c0f166191cd6ff8927bdc771
+SHA256: b29e84c7e0fea97c744e697d4900d5201deb62a0b029773471b29d19b51abf25
+
 Package: libgnutls-static
 Architecture: aarch64
 Installed-Size: 4156
@@ -997,6 +1069,35 @@ Size: 543892
 MD5sum: caec86ad67e0d13cffa3242d3424659c
 SHA1: a42f8b588b2eb571f85e7d1e392ae7a9b0d47fba
 SHA256: 4179a2737eab12f06a56d854aa14a113dbf98316fadcbc72fe2c67649ce88145
+
+Package: libpcap-static
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 1.11.1-1
+Homepage: https://www.tcpdump.org
+Depends: libpcap (= 1.11.1-1)
+Description: Static libraries for libpcap
+Filename: ./libpcap-static_1.11.1-1_aarch64.deb
+Size: 105784
+MD5sum: db0ad03be0ad1f7c3bed6cd8ac074a90
+SHA1: 767874ea1e216c9d3b1f7d8f627bfb19aa1fb9e6
+SHA256: 433c2d09639dde373eee4ab9e59ff19b6a9e3b65a32e84ad31892fb647567212
+
+Package: libpcap
+Architecture: aarch64
+Installed-Size: 812
+Maintainer: @termux
+Version: 1.11.1-1
+Homepage: https://www.tcpdump.org
+Breaks: libpcap-dev
+Replaces: libpcap-dev
+Description: Library for network traffic capture
+Filename: ./libpcap_1.11.1-1_aarch64.deb
+Size: 244684
+MD5sum: cbca30070c6d6368c782790609aa6b18
+SHA1: 0fc923614cb21a60faf04a78b790efe438316030
+SHA256: c7abf785b28fe01141d04053bec14359361bce49651b0eef1f04698d6f9e6ebd
 
 Package: libpsl-native
 Architecture: aarch64
@@ -2473,6 +2574,22 @@ MD5sum: 12d991ad1ce8cec1d52189ff38a890f5
 SHA1: 53a6c4fe152229e2a41eac08ae79d66befaa7605
 SHA256: f98060e10bf05cae02f4047d563050c4a99a00dcd5b712fd1428a80f7785b8ac
 
+Package: tesseract
+Architecture: aarch64
+Installed-Size: 28612
+Maintainer: @termux
+Version: 5.5.5-1
+Homepage: https://github.com/tesseract-ocr/tesseract
+Breaks: tesseract-dev
+Depends: fontconfig, glib, harfbuzz, leptonica, libandroid-glob, libandroid-posix-semaphore, libarchive, libc++, libcairo, libcurl, libicu, pango
+Replaces: tesseract-dev
+Description: Tesseract is probably the most accurate open source OCR engine available
+Filename: ./tesseract_5.5.5-1_aarch64.deb
+Size: 9755896
+MD5sum: eedce3d00dc71bb2307b05e7721912b0
+SHA1: 762db116214d84349d1272fa96898b31f2cb068b
+SHA256: e5dcccbe3b1d8d6430c330906cc11afbebc274e53bb98eefd2052d77e8dcda59
+
 Package: testssl.sh
 Architecture: all
 Installed-Size: 3796
@@ -3016,6 +3133,20 @@ Size: 10852304
 MD5sum: 80d7dfb3ee76481a717c095d73a870b2
 SHA1: a9d03f0633b78b16e79af3de00ca6c97ceef77c0
 SHA256: 52c26b6617407ff64a4de2d8501bbba138abfe6a0f8f92fdb76820cfefca494a
+
+Package: zellij
+Architecture: aarch64
+Installed-Size: 53512
+Maintainer: Jonathan Lei <me@xjonathan.dev>
+Version: 0.46.1-1
+Homepage: https://zellij.dev/
+Depends: openssl
+Description: A terminal workspace with batteries included
+Filename: ./zellij_0.46.1-1_aarch64.deb
+Size: 10953668
+MD5sum: 31210b6e97150522784421382fc32fa7
+SHA1: 7d60321f23ae0fcebd6b55f328dabf9c3536397c
+SHA256: af51ed370eabaab36e4b2efa519d3c011f748e72ebf1d247bd6a5be538c8e381
 
 Package: zstd
 Architecture: aarch64
