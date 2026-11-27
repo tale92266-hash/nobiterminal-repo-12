@@ -1109,6 +1109,53 @@ MD5sum: f0c6ec1fb1822555af525346ff68f5ab
 SHA1: f1208d8bbaa6fe1e7992924cfcdacb73a3e962fa
 SHA256: 40e893967f3fc77cde3bb156841e76fd7295846c67ec602bfed26b1f9e8292dd
 
+Package: llama-cpp-backend-opencl
+Architecture: aarch64
+Installed-Size: 4248
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 1.1.0-1)
+Recommends: ocl-icd
+Suggests: opencl-vendor-driver | clvk
+Description: OpenCL Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-opencl_1.1.0-1_aarch64.deb
+Size: 590056
+MD5sum: 826834260a7030c86ca44bb095e0a7bd
+SHA1: 31ef7bcd28ef917b1f2ecba2eef89eeee8e5d820
+SHA256: 823f64eea16c3921d07a3ecc017f9cdeeb3ea94f8a4534ef5524ea8f79c932c5
+
+Package: llama-cpp-backend-vulkan
+Architecture: aarch64
+Installed-Size: 27952
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 1.1.0-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-vulkan_1.1.0-1_aarch64.deb
+Size: 2709452
+MD5sum: feca17f470a55151bd02b12516c43934
+SHA1: d998240843c52afacdfd14762add2bef47df8fe1
+SHA256: fac9a1a38ce87814a9da2112de2b807511728ce4179a5a51289950dff1d8cbf6
+
+Package: llama-cpp
+Architecture: aarch64
+Installed-Size: 23160
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: libandroid-spawn, libc++, libcurl
+Suggests: llama-cpp-backend-vulkan, llama-cpp-backend-opencl
+Description: LLM inference in C/C++
+Filename: ./llama-cpp_1.1.0-1_aarch64.deb
+Size: 7557848
+MD5sum: 24e50e8aca882902737597ab9cac563e
+SHA1: 436a4c6260667cd42e9414b5fc6537bccaaf2059
+SHA256: 35bba4efe94134eaf8ed719908bd28dec69baaba12cdc83b3dbec9aa80e9c444
+
 Package: manim
 Architecture: aarch64
 Installed-Size: 3364
@@ -1123,6 +1170,37 @@ Size: 454336
 MD5sum: eede4548de1115b1942b5f2c9858148d
 SHA1: cb7231d1080f2f53705ed59d369742a199c8e837
 SHA256: 06195e8c790ba3a9b02b9847978bd3f316eecd34baf6798a4823364d7dbfe2fb
+
+Package: mariadb-static
+Architecture: aarch64
+Installed-Size: 592
+Maintainer: @termux
+Version: 2:13.1.2-1
+Homepage: https://mariadb.org
+Depends: mariadb (= 2:13.1.2-1)
+Description: Static libraries for mariadb
+Filename: ./mariadb-static_2:13.1.2-1_aarch64.deb
+Size: 111428
+MD5sum: 7a448114567747726a094040888805a7
+SHA1: 4c424a3dbc3df989724d8d3ab270a2ab45f2180a
+SHA256: 4c51d78214149b8d869c8cd2f368de73a0b01bdbbfbb3c4be010129b4c9a8461
+
+Package: mariadb
+Architecture: aarch64
+Installed-Size: 203460
+Maintainer: @termux
+Version: 2:13.1.2-1
+Homepage: https://mariadb.org
+Breaks: mariadb-dev
+Depends: libandroid-support, libbz2, libc++, libcrypt, libedit, liblz4, libxml2, liblzma, ncurses, openssl, pcre2, zlib, zstd
+Conflicts: mysql
+Replaces: mariadb-dev
+Description: A drop-in replacement for mysql server
+Filename: ./mariadb_2:13.1.2-1_aarch64.deb
+Size: 16345532
+MD5sum: 567747fe811ba59b4323f5a1e0e4f970
+SHA1: d8dc7d6826a4d2b5f90e88bad87d2bdfeaf00eed
+SHA256: 022a98b323212c5a728c957b265d3cee2907f656ebdf5bee1005dcdd2de3c530
 
 Package: maven
 Architecture: aarch64
@@ -1431,6 +1509,22 @@ MD5sum: 79c7cab098b7153eea91630dbfe96ea6
 SHA1: 6bb3c8ded0ad6b2098bb3d55238072b66451d377
 SHA256: c894d4ba77b363d57efa68c842b72a1979dc2ba9969fca3331e779e1cd8085e1
 
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33988
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2211+g8cf55994e9-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2211+g8cf55994e9-1_aarch64.deb
+Size: 6282340
+MD5sum: d1cb0b55706e5f459d81ac5141bca8de
+SHA1: 5c428ead6bacf92b60a4df2ec31ddff34a20fbf2
+SHA256: e4131a6a5d21b5600ba85cf169e16cb3c07479e51183377a8238bbc312bda888
+
 Package: nginx
 Architecture: aarch64
 Installed-Size: 1628
@@ -1500,6 +1594,36 @@ Size: 1305088
 MD5sum: bd5eff37aa36d806dfd2941dc3eaf2ae
 SHA1: 197184fbeca5f7e10aabd4dac370ada37a3720a2
 SHA256: 864148f587c1ce195575f2cc4f64a0ef1fa528d6a1c48990a8ad0bd4954e47fb
+
+Package: ollama-backend-vulkan
+Architecture: aarch64
+Installed-Size: 27932
+Maintainer: @termux
+Version: 0.40.18-1
+Homepage: https://ollama.com/
+Depends: ollama (= 0.40.18-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for Ollama
+Filename: ./ollama-backend-vulkan_0.40.18-1_aarch64.deb
+Size: 2693000
+MD5sum: b3e0d683b93530552ff1bbe31ffef8b7
+SHA1: bccee1d59f6f03f4087b2464833bbb6154e58319
+SHA256: 09836d9a1cda9249aed8b09f37c99f752412a1aee5d96f93fe834488f55ee2b5
+
+Package: ollama
+Architecture: aarch64
+Installed-Size: 62788
+Maintainer: @termux
+Version: 0.40.18-1
+Homepage: https://ollama.com/
+Depends: libandroid-spawn, libc++
+Description: Get up and running with large language models
+Filename: ./ollama_0.40.18-1_aarch64.deb
+Size: 14260080
+MD5sum: 0c667bfb9a71ece79905b799d28bb468
+SHA1: 25b6c5b671b0becedb378c0449dbcb7c0414766b
+SHA256: 22afa4e6443d95db4ac14a16b4178476920f2002472e41232d47768fca7906a0
 
 Package: openjdk-25-x
 Architecture: aarch64
@@ -2181,6 +2305,19 @@ Size: 6159480
 MD5sum: aedf942720a63ceaed147cf26e75bfb9
 SHA1: 065b90e1131d711297d5d5d8bd1f2449d67e6663
 SHA256: 24997558aadaa1487a7f6dac448a0a33088e47d6c831fa9ef8512880674681c0
+
+Package: sing-box
+Architecture: aarch64
+Installed-Size: 46468
+Maintainer: kay9925@outlook.com
+Version: 1.14.5-1
+Homepage: https://sing-box.sagernet.org
+Description: The universal proxy platform
+Filename: ./sing-box_1.14.5-1_aarch64.deb
+Size: 10566212
+MD5sum: ab0cc0449e36fc65a440e914f8dba32f
+SHA1: e9165122a0b18baf6490b4e273731800a7afd590
+SHA256: ece5c8a252c0a1861019f097a0e77f96c2e946c769bdbdc770c91807f91f8b8e
 
 Package: snapcast-client
 Architecture: aarch64
