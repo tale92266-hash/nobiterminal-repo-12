@@ -1115,6 +1115,19 @@ MD5sum: 6941e0e312206c5a960069cf1917c764
 SHA1: 524d6fbd17480e48300bc8cf6c2631d58ab6cc42
 SHA256: a6198e8654e89b1b519a0326917339621f4e49c435345ffa5fb871fb4d59e628
 
+Package: libhiredis
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://github.com/redis/hiredis
+Description: Hiredis is a minimalistic C client library for the Redis database
+Filename: ./libhiredis_1.5.1-1_aarch64.deb
+Size: 70392
+MD5sum: 8605a3ae95c9229848f1dc647f1eed00
+SHA1: 0e58acba75de3656fee12014420c09e308fe0840
+SHA256: 3d14a56347b0114a460f54fdb3d2199c190d79d4ea3339babb72d91c73807e00
+
 Package: libmspub-static
 Architecture: aarch64
 Installed-Size: 1908
@@ -1271,6 +1284,48 @@ MD5sum: 5b7838fd8693ef06915e3067f1998964
 SHA1: b929846c81d685465b32176c4ff79b0e995ece7d
 SHA256: d5b4778cb7c757aef028bfba5b9fcbcda29a376f2b163304766ddd83822d86c9
 
+Package: libseccomp-static
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @termux
+Version: 2.6.2-1
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.6.2-1)
+Description: Static libraries for libseccomp
+Filename: ./libseccomp-static_2.6.2-1_aarch64.deb
+Size: 45972
+MD5sum: 8d50a5e1ba9b4b0077f462db91499a83
+SHA1: 182dea1c2b2ff831fb3a4beb20191e68a79b74d8
+SHA256: c14612f3addc4dee9425db18b8535a3bd2add532dbaf6cb855312e49ae0958a3
+
+Package: libseccomp
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 2.6.2-1
+Homepage: https://github.com/seccomp/libseccomp
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Description: Enhanced seccomp library
+Filename: ./libseccomp_2.6.2-1_aarch64.deb
+Size: 77968
+MD5sum: 45fe37680d071e54cb938a77fcaae9d3
+SHA1: ebeca4fb18ebbf13bfcbe3c8873ecb4060cd5af0
+SHA256: 4fad414d8c5a74703b31e87df7b630ea7dba78a1f2216abdee66dba98750dd23
+
+Package: libsrtp
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 2.8.2-1
+Homepage: https://github.com/cisco/libsrtp
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+Filename: ./libsrtp_2.8.2-1_aarch64.deb
+Size: 45448
+MD5sum: fb006a3c5d8c3ad461c4bdc5a7fbd8f4
+SHA1: 20dfd382dbe57baaacbb8b65ac5f07885fbb0dec
+SHA256: 3b0601c34858d072ad03e8f19a4f271f7bb441523742cfd74742f5e9c2c3e495
+
 Package: libsynctex
 Architecture: aarch64
 Installed-Size: 172
@@ -1353,6 +1408,35 @@ Size: 4590960
 MD5sum: 620519128046be6563fd90bcbb93958d
 SHA1: 5051c92c1d944a824799e925dfb679bcc141f4ac
 SHA256: e617efdebb6a5f48624fd6f5251b3e68e261a0a5b1e7b8e478cea7a75eee5119
+
+Package: libyaml-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.2.7-1
+Homepage: https://pyyaml.org/wiki/LibYAML
+Depends: libyaml (= 0.2.7-1)
+Description: Static libraries for libyaml
+Filename: ./libyaml-static_0.2.7-1_aarch64.deb
+Size: 43384
+MD5sum: db9b81903847749183f11dbfe108e44b
+SHA1: a774cd415de9ecc9db55ff168f345534a6d70c27
+SHA256: 9e143d748ae738208c3a6430bf6af6c78cb9e03e8a9eee2ec908f50c6421d852
+
+Package: libyaml
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 0.2.7-1
+Homepage: https://pyyaml.org/wiki/LibYAML
+Breaks: libyaml-dev
+Replaces: libyaml-dev
+Description: LibYAML is a YAML 1.1 parser and emitter written in C
+Filename: ./libyaml_0.2.7-1_aarch64.deb
+Size: 46964
+MD5sum: ef4d6584d601049399d08c4affbf0fd9
+SHA1: e069be4cab1fb54c0a4ccdb9ded2e272e6380dcf
+SHA256: dc7f98087362ed666a41948183ddc558939f0bc7c97f1cde26d504ff28f45c6e
 
 Package: lilv
 Architecture: aarch64
@@ -2116,6 +2200,20 @@ MD5sum: 86d28dbe6d9ab8b7aa4f41ca9fd1edf7
 SHA1: ad9d59be635a38e11e54528fc9a970f2f791e725
 SHA256: 27fbc5a108b9d9a5b215073f0ae23ee35a93d7d553f0b7c42a3d26bc461e0390
 
+Package: php-zephir-parser
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 2.12.0-1
+Homepage: https://github.com/phalcon/php-zephir-parser
+Depends: php
+Description: The Zephir Parser delivered as a C extension for the PHP language
+Filename: ./php-zephir-parser_2.12.0-1_aarch64.deb
+Size: 65056
+MD5sum: 1168cb09897facff272564f455973598
+SHA1: bd66fc1cde74da6ae52d3918d03e6f2d1c4dfce8
+SHA256: 1bd8f65400f142bdf277b737dfa2a78db283237346da51168d2b2e2468f0f892
+
 Package: php
 Architecture: aarch64
 Installed-Size: 82332
@@ -2298,6 +2396,20 @@ Size: 50020
 MD5sum: fe6d794c0d1bfee0e0ec69d1064b56ad
 SHA1: c9ef9e5ff4b97254bfc47b27e7d285ba9de3f70f
 SHA256: 79e8c3caa16f3a43b909067adee5d31077d444df51dfb0a774ac392272a52bf2
+
+Package: python-sabyenc3
+Architecture: aarch64
+Installed-Size: 1188
+Maintainer: @termux
+Version: 10.4.0-1
+Homepage: https://github.com/sabnzbd/sabctools
+Depends: libc++, python
+Description: C implementations of functions for use within SABnzbd
+Filename: ./python-sabyenc3_10.4.0-1_aarch64.deb
+Size: 343032
+MD5sum: 56534ce88fb2a8e4b0aea94eef816c30
+SHA1: 1cf9298d9df522a459f7d779976c74131ef1d4b1
+SHA256: d5af2c801f83a50a91f9b7563cb8f14f4251233d9fa4d7b9cadcbca1a552d268
 
 Package: python-torchaudio
 Architecture: aarch64
