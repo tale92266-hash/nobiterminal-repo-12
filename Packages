@@ -940,6 +940,20 @@ MD5sum: eede4548de1115b1942b5f2c9858148d
 SHA1: cb7231d1080f2f53705ed59d369742a199c8e837
 SHA256: 06195e8c790ba3a9b02b9847978bd3f316eecd34baf6798a4823364d7dbfe2fb
 
+Package: maven
+Architecture: aarch64
+Installed-Size: 11352
+Maintainer: @termux
+Version: 3.10.2-1
+Homepage: https://maven.apache.org/
+Depends: openjdk-21
+Description: A Java software project management and comprehension tool
+Filename: ./maven_3.10.2-1_aarch64.deb
+Size: 9662496
+MD5sum: 177a64ab0a4813c25fcd901463458035
+SHA1: bcb34cbc14fd8ec0eeb2fadec85986aba54e6c54
+SHA256: b7d02036af862ef19a907ea25f42860322f2999184eeef17534fc950f3e2a3de
+
 Package: megacmd
 Architecture: aarch64
 Installed-Size: 10528
@@ -1689,6 +1703,20 @@ MD5sum: a6d8c0139598d7b741806a24a1bde3f1
 SHA1: 5f68742deb88cc1043897bcf257af34c0686389f
 SHA256: 544350df6e112304ee176ac52f9c31743a6b59452380e6f81f771084546a958c
 
+Package: pzstd
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.6.0-1
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.6.0-1)
+Description: A Pigz-like tool for Zstandard
+Filename: ./pzstd_1.6.0-1_aarch64.deb
+Size: 42940
+MD5sum: d1a8524758ad233f5711b30ab7c4f44a
+SHA1: f1af948ef989f4d118eaaf02900abf1e36550ab5
+SHA256: 59f542c8e2cab53ee9ff55da42a7bea7a45e371c0248e6023a82b0e77c1f100c
+
 Package: qrsspig
 Architecture: aarch64
 Installed-Size: 1184
@@ -2307,6 +2335,19 @@ MD5sum: 38dd4f39d0fbf3bad41611348e25e0c7
 SHA1: 24a3c874ab0b7486e7fcfdf20dff1eacfe94047b
 SHA256: 253d2f6d537c862f86b934d6269365a088d04e04ba802642bbee85ce90747943
 
+Package: uv
+Architecture: aarch64
+Installed-Size: 34936
+Maintainer: @termux
+Version: 0.13.10-1
+Homepage: https://docs.astral.sh/uv/
+Description: An extremely fast Python package installer and resolver, written in Rust.
+Filename: ./uv_0.13.10-1_aarch64.deb
+Size: 10695328
+MD5sum: 115567080c1d7c1414f12c4d4a127a9b
+SHA1: 39d93fd1af72b3814ccbdb865d584db80c4762d9
+SHA256: 88fc03242d9e8acc9f4cd53d2ddba4199c7afd01ea3df5f202035f62df9c48ff
+
 Package: valgrind-static
 Architecture: aarch64
 Installed-Size: 33152
@@ -2335,6 +2376,37 @@ Size: 2828724
 MD5sum: 543935497d1b3800b6db707e5c86c181
 SHA1: 1b3b0694709297c8cd5e49248c653d17ae161d4a
 SHA256: 14a986674a48a09b14d20d12064590d4ff3371fd01b09db688aa6e03b884cbc3
+
+Package: valkey-static
+Architecture: aarch64
+Installed-Size: 588
+Maintainer: @termux
+Version: 9.2.1-1
+Homepage: https://valkey.io/
+Depends: valkey (= 9.2.1-1)
+Description: Static libraries for valkey
+Filename: ./valkey-static_9.2.1-1_aarch64.deb
+Size: 84104
+MD5sum: d9c66c6c9060bf1c73a187f487690df0
+SHA1: 02e8c419abecc670ce7fc02f7482b19cb72c95b8
+SHA256: 029e8a286bfdac04b1bfff461352917705bc0e8c7bcfe7e9d5d5492496eccb3f
+
+Package: valkey
+Architecture: aarch64
+Installed-Size: 5092
+Maintainer: @termux
+Version: 9.2.1-1
+Homepage: https://valkey.io/
+Breaks: redis
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: redis
+Provides: redis
+Description: In-memory data structure store used as a database, cache and message broker
+Filename: ./valkey_9.2.1-1_aarch64.deb
+Size: 1312428
+MD5sum: 07dc6fa9b9d7fd8cbf3062b46202e95c
+SHA1: 5a80c000b332318f1a6e1d3f0af0bb56f4091feb
+SHA256: aa93f2d469f0657c7fdbb16f0a76699ee7122039a1ceb4267e326fb5448355cf
 
 Package: vamp-plugin-sdk-static
 Architecture: aarch64
@@ -2441,6 +2513,19 @@ MD5sum: 29df3b394f89fdaa1382fd42e84d5bd3
 SHA1: a1028aecb0e8853aa62d8dd44eff707dcf87a933
 SHA256: 439f06f21040414fe3bc3730346faec3225dbf43f26a9e61a94b9d7804e1f6a7
 
+Package: wasmtime
+Architecture: aarch64
+Installed-Size: 42224
+Maintainer: @termux
+Version: 51.0.0-1
+Homepage: https://wasmtime.dev/
+Description: A standalone runtime for WebAssembly
+Filename: ./wasmtime_51.0.0-1_aarch64.deb
+Size: 8609768
+MD5sum: f2ab120bc442fc932aab00bbf53860d3
+SHA1: 72d5d843f63bbe2682d82bf811089529f6814d0d
+SHA256: d13882183bc6f17ddfa0e23e824b1e6525a5666d2fa6ca356f7ed76578d6a5e6
+
 Package: xxd
 Architecture: aarch64
 Installed-Size: 68
@@ -2481,3 +2566,19 @@ Size: 10852304
 MD5sum: 80d7dfb3ee76481a717c095d73a870b2
 SHA1: a9d03f0633b78b16e79af3de00ca6c97ceef77c0
 SHA256: 52c26b6617407ff64a4de2d8501bbba138abfe6a0f8f92fdb76820cfefca494a
+
+Package: zstd
+Architecture: aarch64
+Installed-Size: 1156
+Maintainer: @termux
+Version: 1.6.0-1
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: ./zstd_1.6.0-1_aarch64.deb
+Size: 321376
+MD5sum: b48acd59ada77b3c995f235988465ac0
+SHA1: 4df7f1f0302709b5a691175404789c00f1463a5e
+SHA256: 2d32d7e389f4aa647c55ffade87446f1595c5be9857e3fc1c03ef016ad84d359
