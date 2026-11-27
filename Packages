@@ -208,6 +208,75 @@ MD5sum: fdb209367fb73ed975664c6df2af31a5
 SHA1: a7c4ea27dad2d535edee9e39f75ab02667711dce
 SHA256: ca38889b8e9cc7795de237dcad9a0670e1058d2a2d3199d7ac55733dce3c39da
 
+Package: emscripten-binaryen
+Architecture: aarch64
+Installed-Size: 20324
+Maintainer: @termux
+Version: 7.0.1-1
+Homepage: https://emscripten.org
+Depends: libc++
+Description: Emscripten-compatible Binaryen
+Filename: ./emscripten-binaryen_7.0.1-1_aarch64.deb
+Size: 3869556
+MD5sum: f37ae53ed982ab1c119d9156029de1d2
+SHA1: 89f82fdad676abf840dd2600a0d2248b4b176004
+SHA256: bf9cd2a619cf67e84392a1b6ad077c3ddc92db856898011ffd0e0e79a23b2b43
+
+Package: emscripten-llvm
+Architecture: aarch64
+Installed-Size: 180012
+Maintainer: @termux
+Version: 7.0.1-1
+Homepage: https://emscripten.org
+Depends: libc++
+Description: Emscripten-compatible LLVM
+Filename: ./emscripten-llvm_7.0.1-1_aarch64.deb
+Size: 37816660
+MD5sum: b5ca598e30ebefefe727c2540524b091
+SHA1: eb3ffb1f362152b9890d4f5811eb02a48420c498
+SHA256: 75fd559910fbeb4da11588b1daef0e713b925b6a64fe7f47f9d91d21ff2569ef
+
+Package: emscripten-tests-third-party
+Architecture: all
+Installed-Size: 83492
+Maintainer: @termux
+Version: 7.0.1-1
+Homepage: https://emscripten.org
+Description: Emscripten third party test suite files
+Filename: ./emscripten-tests-third-party_7.0.1-1_all.deb
+Size: 9610820
+MD5sum: c28a1f996256c09f2a9c95657a4e876a
+SHA1: 6cf216617bab2e247043f4b865c4c7a2c800f2f6
+SHA256: 2019d4066d6da32e0c5bd6dba12003faeffa03c1be28085cfd5b75023e07a980
+
+Package: emscripten
+Architecture: all
+Installed-Size: 98140
+Maintainer: @termux
+Version: 7.0.1-1
+Homepage: https://emscripten.org
+Depends: nodejs-lts | nodejs, python, emscripten-binaryen, emscripten-llvm
+Description: Emscripten: An LLVM-to-WebAssembly Compiler
+Filename: ./emscripten_7.0.1-1_all.deb
+Size: 15541752
+MD5sum: ea9cceecb62f0a5dcdee8dcf8f3a3dc6
+SHA1: 7637a8f4a9d0b0ebfb42be5237f75959e204f775
+SHA256: c10532fd1b487e4d0e7c9bf12d5a21f8ee436f231b87b046d93f72471ec296d2
+
+Package: erlang-doc
+Architecture: all
+Installed-Size: 121744
+Maintainer: @termux
+Version: 29.1.3-1
+Homepage: https://www.erlang.org/
+Depends: erlang (= 29.1.3-1)
+Description: Erlang HTML documentation
+Filename: ./erlang-doc_29.1.3-1_all.deb
+Size: 19427240
+MD5sum: e07aad22d4e3a331a722617776d30996
+SHA1: a957155563c4f1e1c2a60f419ad9b9b12477a88a
+SHA256: 20cfc25ce7e42256df553328fd677b71b220d1b1d52475ec615f0c19c71bca67
+
 Package: fastfetch
 Architecture: aarch64
 Installed-Size: 3696
@@ -357,6 +426,20 @@ MD5sum: 0412773473c380541bf369e01a7c881d
 SHA1: 7b9322a734d09196eccb577ededdde805da6dda1
 SHA256: 66c0b68210da0f67e2ea06bea82d3a5b154d65f8e3cce0f541ec00a82d98a141
 
+Package: gnutls
+Architecture: aarch64
+Installed-Size: 1156
+Maintainer: @termux
+Version: 3.8.14-1
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.8.14-1)
+Description: Commandline utilities for interfacing with the gnutls library
+Filename: ./gnutls_3.8.14-1_aarch64.deb
+Size: 184712
+MD5sum: 929b06f428b56a55698d3d5532facfff
+SHA1: 41128d0c52a0366a211b447a0d849f18c20685fc
+SHA256: 19e6a9878bca577fed38dad8fd453f184b18625bbf0a970bbd2a9c77e7ebda6f
+
 Package: gomp
 Architecture: aarch64
 Installed-Size: 10276
@@ -398,6 +481,36 @@ Size: 4585064
 MD5sum: 3c4de02408d1e2f97ba1bb8d82f6e940
 SHA1: 1ba12d5a02422d7b1b94d8b432c1a8622ee415e0
 SHA256: 8eb08fa4106ed6582c700ae120bd5444c95ea24926d1a966542e55b177a6524d
+
+Package: graphviz-static
+Architecture: aarch64
+Installed-Size: 4176
+Maintainer: @termux
+Version: 16.1.2-1
+Homepage: https://www.graphviz.org/
+Depends: graphviz (= 16.1.2-1)
+Description: Static libraries for graphviz
+Filename: ./graphviz-static_16.1.2-1_aarch64.deb
+Size: 762472
+MD5sum: 034824d597b62f3cf00e29970abd4c94
+SHA1: 99892e9481ace901b1b652e0eda831e75f5460c9
+SHA256: 0628e01bb3aa895b46c1d838bbf4e72e6a7770b620ae9e4afdc798359457e761
+
+Package: graphviz
+Architecture: aarch64
+Installed-Size: 10688
+Maintainer: @termux
+Version: 16.1.2-1
+Homepage: https://www.graphviz.org/
+Breaks: graphviz-dev
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libandroid-glob, libc++, libcairo, libexpat, libgd, libgts, libltdl, librsvg, libwebp, pango, zlib
+Replaces: graphviz-dev
+Description: Rich set of graph drawing tools
+Filename: ./graphviz_16.1.2-1_aarch64.deb
+Size: 3030932
+MD5sum: 4cc334fc044c9039e135f63ed736b310
+SHA1: e1b5868e00d48697cb7e61585cc51514d0225c54
+SHA256: 4add428d05d77cbd897da52ab2bc1a6fd4584baee7234323801252005a81f05b
 
 Package: gst-libav
 Architecture: aarch64
@@ -741,6 +854,36 @@ Size: 417972
 MD5sum: 06a52be9d686d462801d91d881626255
 SHA1: fa61cd83bea0ea2cd12275f2470071b8ef171062
 SHA256: 9d8e308942171d7e68b790ac6578a378702e4f2e49565510338b88a1d67437fb
+
+Package: libgnutls-static
+Architecture: aarch64
+Installed-Size: 4156
+Maintainer: @termux
+Version: 3.8.14-1
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.8.14-1)
+Description: Static libraries for libgnutls
+Filename: ./libgnutls-static_3.8.14-1_aarch64.deb
+Size: 842172
+MD5sum: d17e2194d6654f1434b0559918c804bb
+SHA1: e287ecc5d12dfcd33ebdbca41367b8401aef8599
+SHA256: 28d5ea95be22dc9bdb3eec257f42e50af4d3be9d42aecd8182871ea310c5bfc5
+
+Package: libgnutls
+Architecture: aarch64
+Installed-Size: 2676
+Maintainer: @termux
+Version: 3.8.14-1
+Homepage: https://www.gnutls.org/
+Breaks: libgnutls-dev
+Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libtasn1, libunbound, libunistring, p11-kit, zlib
+Replaces: libgnutls-dev
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Filename: ./libgnutls_3.8.14-1_aarch64.deb
+Size: 778744
+MD5sum: 5597424d953c5e4d1403b42d276f2988
+SHA1: 5b3c393417bb449ae782eb3f4a40dea66bfdaa4a
+SHA256: 2be07db7a7742c2c6601632f9484695dd2bf8736eac3138dafaf5e5669e8ff27
 
 Package: libmspub-static
 Architecture: aarch64
@@ -1157,6 +1300,20 @@ Size: 2814712
 MD5sum: 5b80aaca97648304ce5ed7d73d57f405
 SHA1: 8751dbdfeb87ea055b42141adeb9db98489cdcb1
 SHA256: cd8d429aaf4109e213b7ea97251280580e02647893d9d0c4662f4fb7f79966bd
+
+Package: mpd
+Architecture: aarch64
+Installed-Size: 7796
+Maintainer: @termux
+Version: 0.25-1
+Homepage: https://www.musicpd.org
+Depends: libchromaprint, dbus, ffmpeg, game-music-emu, libao, libbz2, libc++, libcurl, libexpat, libflac, libicu, libid3tag, libmad, libmp3lame, libmodplug, libmpdclient, libnfs, libogg, libopenmpt, libopus, libsamplerate, libsndfile, libsoxr, libsqlite, libvorbis, libwavpack, libmpg123, openal-soft, pcre2, pulseaudio, yajl, zlib, fmt
+Description: Music player daemon
+Filename: ./mpd_0.25-1_aarch64.deb
+Size: 2826088
+MD5sum: bfac60991b940697adb986650a0cfe26
+SHA1: 0143221941546869237d0537e2db327d2527982c
+SHA256: e53169fa457262785eff64410319aecf5d8346aabec9c996cad4c74a2fb23c5c
 
 Package: mpdscribble
 Architecture: aarch64
@@ -2609,6 +2766,78 @@ Size: 8609768
 MD5sum: f2ab120bc442fc932aab00bbf53860d3
 SHA1: 72d5d843f63bbe2682d82bf811089529f6814d0d
 SHA256: d13882183bc6f17ddfa0e23e824b1e6525a5666d2fa6ca356f7ed76578d6a5e6
+
+Package: weechat-lua-plugin
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 4.10.5-1
+Homepage: https://weechat.org/
+Depends: lua53, weechat (= 4.10.5-1)
+Description: WeeChat Lua Plugin
+Filename: ./weechat-lua-plugin_4.10.5-1_aarch64.deb
+Size: 40484
+MD5sum: cf058bb3deab1eb570b43ce46d7d19f1
+SHA1: 4a65ed390af5222fbb74af840ef186d20290724c
+SHA256: 8772b6e1d283e269563c1594538a4f8a253c7e9e88075e27146ee6c55216311a
+
+Package: weechat-perl-plugin
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 4.10.5-1
+Homepage: https://weechat.org/
+Depends: perl, weechat (= 4.10.5-1)
+Description: WeeChat Perl Plugin
+Filename: ./weechat-perl-plugin_4.10.5-1_aarch64.deb
+Size: 61920
+MD5sum: 7913f77e7e352d553dcea23009d40b04
+SHA1: 714634e62835276c888a8e4e577b55d02a8eb8e3
+SHA256: 98448ed28feeabeb8d293a9d441fc33c30e1c2d2f6d13881e80abdd0e8caa440
+
+Package: weechat-python-plugin
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 4.10.5-1
+Homepage: https://weechat.org/
+Depends: python, weechat (= 4.10.5-1)
+Description: WeeChat Python3 Plugin
+Filename: ./weechat-python-plugin_4.10.5-1_aarch64.deb
+Size: 43844
+MD5sum: 6e2e4c28c92a0a41fb72d81a74bf775b
+SHA1: 09ce962e08b6430c511a0248b64d62bdd3a72172
+SHA256: 89cfc71bdba193ebaf25e97ea362b49901b2f8f809aece6b367445b1886d65cc
+
+Package: weechat-ruby-plugin
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 4.10.5-1
+Homepage: https://weechat.org/
+Depends: ruby, weechat (= 4.10.5-1)
+Description: WeeChat Ruby Plugin
+Filename: ./weechat-ruby-plugin_4.10.5-1_aarch64.deb
+Size: 46800
+MD5sum: 22b3979e2a07c3320e676a67b3e6c152
+SHA1: 0fbedb027168a854c66c8d7739254f1e18aa6cba
+SHA256: 14ea6cac53191a6429a870345ba9f151d1533e45592900d60fa8e36fb9833821
+
+Package: weechat
+Architecture: aarch64
+Installed-Size: 3036
+Maintainer: @termux
+Version: 4.10.5-1
+Homepage: https://weechat.org/
+Breaks: weechat-dev
+Depends: libandroid-support, libcurl, libgcrypt, libgnutls, libiconv, ncurses, zlib, zstd
+Replaces: weechat-dev
+Description: Fast, light and extensible IRC chat client
+Filename: ./weechat_4.10.5-1_aarch64.deb
+Size: 805648
+MD5sum: c6e945d5421fcf54f344f6478eea4d3d
+SHA1: d4343f7f8b522d5002db4f3d5113289821d2112e
+SHA256: 0d6f0f5f5aecfe739ac55e6ee69ed7ce709738a13fc473022e94665d4fbd2808
 
 Package: xxd
 Architecture: aarch64
